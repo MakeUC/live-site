@@ -1,0 +1,29 @@
+language: node_js
+
+node_js:
+  - 12
+
+script:
+  - npm run build
+
+deploy:
+  - provider: s3
+    access_key_id: $AWS_KEY
+    secret_access_key: $AWS_SECRET
+    skip_cleanup: true
+    bucket: dev.makeuc.io
+    local_dir: ./public
+    on:
+      branch: dev
+
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: ./public
+    keep_history: true
+    repo: MakeUC/makeuc.github.io
+    target_branch: master
+    fqdn: makeuc.io
+    verbose: true
+    on:
+      branch: master

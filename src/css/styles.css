@@ -1,0 +1,94 @@
+@import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-react-schedule/styles/material.css';
+
+main {
+  background-color: black;
+  background-image: url('./background.png');
+  background-attachment: fixed;
+  color: theme('colors.white');
+}
+
+.navbar {
+  transition: 0.5s;
+}
+
+.navbar.top {
+  background-color: transparent;
+}
+
+.navbar.scrolling {
+  background-color: theme('colors.primary.translucent');
+}
+
+.navbar .nav-link {
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  color: theme('colors.secondary.default');
+}
+
+.social-icon {
+  font-size: 20px;
+}
+
+.register-form input,
+.register-form select {
+  color: theme('colors.black');
+}
+
+.register-form input[type='file'] {
+  color: theme('colors.white');
+}
+
+.dropzone {
+  padding: 30px 10px;
+  border: dashed 1px white;
+  border-radius: 5px;
+}
+
+.spinner {
+  animation: spinning 1s linear;
+  animation-iteration-count: infinite;
+}
+
+.text-404 {
+  font-size: 6rem;
+}
+
+.moon-404 {
+  width: 6rem;
+  display: inline;
+  margin: 3px;
+  margin-bottom: 20px;
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.e-btn.e-edit,
+.e-btn.e-delete {
+  display: none !important;
+}
+
+.light-link:hover {
+  color: theme('colors.secondary.default');
+}
+
+.partner:hover {
+  opacity: 0.60;
+}

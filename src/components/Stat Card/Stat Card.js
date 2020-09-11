@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import CountUp from 'react-countup';
-import './StatCard.scss'
+import { Waypoint } from 'react-waypoint';
+
+import './StatCard.scss';
 
 /**
  * The component to represent the Stats. Works as a card and has 'up-count' till desired stat
@@ -14,21 +16,39 @@ import './StatCard.scss'
  * @constructor
  */
 function StatCard(props) {
+  let [scrolled, setScrolled] = useState(0);
   return (
-    <div className="p-12 br2 border border-solid mx-4 bg-white text-black text-center">
-      <h1 className="f1 lh-title font-merriweather">
-        <CountUp
-          start={0}
-          end={props.amount}
-          duration={5}
-          separator=" "
-          decimals={props.decimal}
-          prefix={props.prefix}
-        />
-      </h1>
+    <div className="p-12 br2 border border-solid mx-4 bg-white text-black text-center"
+         onScroll={() => console.log('Scrollll')}>
+      <CountUp
+        start={0}
+        end={props.amount}
+        duration={3}
+        separator=" "
+        decimals={props.decimal}
+        prefix={props.prefix}>
+        {({ countUpRef, start }) => (
+          <div>
+            <h1 className="f1 lh-title font-merriweather" ref={countUpRef} />
+            <Waypoint onEnter={()=>{
+              start();
+            }}>
+            </Waypoint>
+          </div>
+        )}
+      </CountUp>
+
       <h2 className="f2 lh-title font-opensans font-gray b">{props.name} </h2>
+      <CountUp start={0} end={100}>
+        {({ countUpRef, start }) => (
+          <div>
+            <span className="f2 lh-title font-opensans font-gray b" ref={countUpRef} />
+            <button onClick={start}>Start</button>
+          </div>
+        )}
+      </CountUp>
     </div>
-  )
+  );
 }
 
-export default StatCard
+export default StatCard;

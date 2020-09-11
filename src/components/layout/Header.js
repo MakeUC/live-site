@@ -9,7 +9,7 @@ const Header = ({ page = `index` } = {}) => {
   useEffect(() => {
     const listener = document.addEventListener(`scroll`, (e) => {
       var scrolled = document.scrollingElement.scrollTop;
-      if (scrolled >= 100) {
+      if (scrolled >= 10) {
         if (state !== `scrolling`) {
           setState(`scrolling`);
         }

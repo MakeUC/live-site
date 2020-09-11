@@ -1,11 +1,13 @@
 import React from "react";
 
 import Card from "../components/Card";
+import StatCard from "../components/Stat Card/Stat Card"
 import Layout from "../components/layout/Layout";
 import SEO from "../components/SEO";
 
 import Schedule from '../components/Schedule';
 import scheduleData from '../../content/schedule.yaml';
+import "tachyons"
 
 
 export default () => {
@@ -50,6 +52,7 @@ export default () => {
                 Type <code>/regbot</code> in the MakeUC Slack to get more statistics.
               </p>
             </Card>
+            <StatCard name="Prizes" amount={100000} prefix={'$'}/>
           </div>
           <div className="lg:w-1/2">
             <Card className="mx-4 bg-white text-black text-center">

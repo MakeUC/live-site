@@ -15,6 +15,8 @@
     "@syncfusion/ej2-react-schedule": "^18.2.44",
     "gatsby": "^2.23.9",
     "gatsby-image": "^2.4.13",
+    "gatsby-plugin-manifest": "^2.4.28",
+    "gatsby-plugin-offline": "^3.2.27",
     "gatsby-plugin-prettier-eslint": "^1.0.4",
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.21",

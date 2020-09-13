@@ -21,21 +21,6 @@ module.exports = {
       options: {
         tailwindConfig: `tailwind.config.js`
       }
-    },
-    {
-    resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: "Lattice",
-        short_name: "Lattice",
-        start_url: "/",
-        background_color: "#6b37bf",
-        theme_color: "#6b37bf",
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: "standalone",
-        icon: "images/icon.png",
-        crossOrigin: `use-credentials`,
-      },
-    },
+    }
   ]
 };

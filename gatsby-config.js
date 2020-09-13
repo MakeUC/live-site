@@ -27,16 +27,15 @@ module.exports = {
       options: {
         name: "Lattice",
         short_name: "Lattice",
-        start_url: "localhost:8000/",
+        start_url: "/",
         background_color: "#6b37bf",
         theme_color: "#6b37bf",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "images/logo.png",
+        icon: "images/icon.png",
         crossOrigin: `use-credentials`,
       },
     },
-    `gatsby-plugin-offline`
   ]
 };

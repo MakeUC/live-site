@@ -30,7 +30,7 @@ export default () => {
           <h2 className="f-subheadline-ns f1 b lh-solid font-merriweather mt5-ns mv4 tc">
             22:00:00
           </h2>
-          <div className="mh1 mh6-ns">
+          <div className="mh3 mh6-ns">
             <div class="h-3 relative rounded-full overflow-hidden">
               <div class="w-full h-full bg-gray-200 absolute"></div>
               <div class="h-full bg-progress-bar absolute" style={{ width: `10%` }} />

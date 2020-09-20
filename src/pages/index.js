@@ -5,7 +5,7 @@ import StatCard from '../components/Stat Card/Stat Card';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/SEO';
 
-import Schedule from '../components/Schedule';
+import Schedule from '../components/MakeucSchedule';
 import scheduleData from '../../content/schedule.yaml';
 import 'tachyons';
 import '../css/index.scss';

@@ -19,25 +19,13 @@ export default () => {
       <section id="countdown" className="">
         <div className="container mx-auto tc mt-10">
           <div className="mv5">
-            <h1 className="f-subheadline-ns f1 lh-solid font-primary b">
+            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked">
               MAKEUC 2020
             </h1>
-            <h4 className="f3-ns f4 lh-solid">
-              Discovering the Beyond
-            </h4>
-            <h3 className="f2-ns f3 mt5 lh-solid">
-              Starts In...
-            </h3>
           </div>
-          <h2 className="f-subheadline-ns f1 b lh-solid font-merriweather mt5-ns mv4 tc">
+          <h2 className="f-subheadline-ns f1 b lh-solid font-merriweather index-countdown mv6 tc tracked-mega">
             22:00:00
           </h2>
-          <div className="mh3 mh6-ns">
-            <div className="h-3 relative rounded-full overflow-hidden">
-              <div className="w-full h-full bg-gray-200 absolute"></div>
-              <div className="h-full bg-progress-bar absolute" style={{ width: `10%` }} />
-            </div>
-          </div>
         </div>
       </section>
       <section id="schedule" className="mt6">

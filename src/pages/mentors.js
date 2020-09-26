@@ -16,30 +16,50 @@ export default () => {
           </h2>
         </div>
         <div className="container mx-auto px-8 text-center flex flex-wrap items-center justify-center">
-          {/*<Card className="mx-4 bg-white text-black text-center">*/}
-          {/*  <h1 className="text-2xl font-semibold">*/}
-          {/*    Google Sheets Embed*/}
-          {/*  </h1>*/}
-          {/*</Card>*/}
-          <MentorCard name={"John Henry"}
+          <MentorCard name={"Nathan Harris"}
                       className="ma3"
-                      slack={"thisHenry"}
-                      speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
-                      />
-          <MentorCard name={"John Henry"}
-                      className="ma3"
-                      slack={"thisHenry"}
-                      speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
+                      slack={"[Northrop Grumman] Nathan"}
+                      speciality={"Python, Electron, JavaScript"}
           />
-          <MentorCard name={"John Henry"}
+          <MentorCard name={"Clifton Wolfe"}
                       className="ma3"
-                      slack={"thisHenry"}
-                      speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
+                      slack={"[Northrop Grumman] Clifton"}
+                      speciality={"Linux, Desktop Development"}
           />
-          <MentorCard name={"John Henry"}
+          <MentorCard name={"David Washburn"}
                       className="ma3"
-                      slack={"thisHenry"}
-                      speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
+                      slack={"[Northrop Grumman] David"}
+                      speciality={"C/C++, Management, Cyber, Red Team"}
+          />
+          <MentorCard name={"Aaron Sawyer"}
+                      className="ma3"
+                      slack={"[Northrop Grumman] Aaron S"}
+                      speciality={"Bash, Python, PowerShell"}
+          />
+          <MentorCard name={"Aaron Boyd"}
+                      className="ma3"
+                      slack={"[Northrop Grumman] Aaron B"}
+                      speciality={"Python, C/C++"}
+          />
+          <MentorCard name={"James Hardy"}
+                      className="ma3"
+                      slack={"[Centauri] James"}
+                      speciality={"Algorithms, Embedded Systems, Data Analysis"}
+          />
+          <MentorCard name={"Sean Collard"}
+                      className="ma3"
+                      slack={"[Centauri] Sean"}
+                      speciality={"Linux, C/C++, Python, Verilog, Microcontrollers"}
+          />
+          <MentorCard name={"Kamari Wright"}
+                      className="ma3"
+                      slack={"Kamari Wright"}
+                      speciality={"Python, Back End, Front End, JavaScript, Java"}
+          />
+          <MentorCard name={"Ayon Roy"}
+                      className="ma3"
+                      slack={"Ayon Roy"}
+                      speciality={"Python, Machine Learning, Deep Learning"}
           />
         </div>
       </section>

@@ -5,10 +5,12 @@ import StatCard from '../components/Stat Card/Stat Card';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/SEO';
 
-import Schedule from '../components/MakeucSchedule';
+import MakeUCSchedule from '../components/MakeucSchedule';
+import Schedule from '../components/Schedule/Schedule';
+
 import scheduleData from '../../content/schedule.yaml';
 import 'tachyons';
-import '../css/index.scss';
+import '../styles/index.scss';
 
 export default () => {
   return (
@@ -31,9 +33,9 @@ export default () => {
             22:00:00
           </h2>
           <div className="mh3 mh6-ns">
-            <div class="h-3 relative rounded-full overflow-hidden">
-              <div class="w-full h-full bg-gray-200 absolute"></div>
-              <div class="h-full bg-progress-bar absolute" style={{ width: `10%` }} />
+            <div className="h-3 relative rounded-full overflow-hidden">
+              <div className="w-full h-full bg-gray-200 absolute"></div>
+              <div className="h-full bg-progress-bar absolute" style={{ width: `10%` }} />
             </div>
           </div>
         </div>
@@ -42,7 +44,8 @@ export default () => {
         <div className="container mx-auto px-8 text-center">
           <h2 className="text-3xl lg:text-5xl title font-semibold">Schedule</h2>
           <div className="">
-            <Schedule schedule={scheduleData} height="300px" />
+            {/*<MakeUCSchedule schedule={scheduleData} height="300px" />*/}
+            <Schedule/>
           </div>
         </div>
       </section>

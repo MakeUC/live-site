@@ -5,7 +5,7 @@ import { Waypoint } from 'react-waypoint';
 import './MentorCard.scss';
 
 /**
- * The component to represent the Stats. Works as a card and has 'up-count' till desired stat
+ * The component to represent the Mentors
  * @param props = {
  *   name: The name of the mentor
  *   slack: The slack for the mentor

@@ -40,6 +40,9 @@ const Header = ({ page = `index` } = {}) => {
         </Link>
         {page === `index` && (
           <div className="flex mt-3 sm:mt-0">
+            <Link className="px-4 lg:px-10 nav-link" to="/">
+              Home
+            </Link>
             <Link className="px-4 lg:px-10 nav-link" to="/mentors">
               Mentors
             </Link>
@@ -48,11 +51,6 @@ const Header = ({ page = `index` } = {}) => {
             </Link>
           </div>
         )}
-        <div className="hidden md:block">
-          <Link to="/">
-            <Button className="text-sm font-bold">22:00:00</Button>
-          </Link>
-        </div>
       </div>
       <a
         id="mlh-trust-badge"

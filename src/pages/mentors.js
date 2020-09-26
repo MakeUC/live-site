@@ -22,22 +22,22 @@ export default () => {
           {/*  </h1>*/}
           {/*</Card>*/}
           <MentorCard name={"John Henry"}
-                      className="ma2"
+                      className="ma3"
                       slack={"thisHenry"}
                       speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
                       />
           <MentorCard name={"John Henry"}
-                      className="ma2"
+                      className="ma3"
                       slack={"thisHenry"}
                       speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
           />
           <MentorCard name={"John Henry"}
-                      className="ma2"
+                      className="ma3"
                       slack={"thisHenry"}
                       speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
           />
           <MentorCard name={"John Henry"}
-                      className="ma2"
+                      className="ma3"
                       slack={"thisHenry"}
                       speciality={"Non sapiente autem aut fuga magnam quis sint. Et amet doloribus qui beatae earum quia. Debitis exercitationem nostrum sunt est nihil molestiae esse. Iusto voluptas vel quis doloremque quia qui. Consequatur neque non a atque occaecati qui."}
           />

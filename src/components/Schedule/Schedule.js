@@ -48,7 +48,7 @@ export default function BasicTable() {
           {rows.map((row) => (
             <TableRow key={row.name}>
               <TableCell component="th" scope="row">
-                {row.name}
+                <span className="b">{row.name}</span>
               </TableCell>
               <TableCell align="right">{row.start}</TableCell>
               <TableCell align="right">{row.end}</TableCell>

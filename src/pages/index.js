@@ -49,7 +49,7 @@ export default () => {
       <section id="social" className="mt6">
         <div className="container mx-auto px-8 text-center">
           <h2 className="text-3xl lg:text-5xl title font-semibold">Social Media</h2>
-          <Card className="mx-4 bg-white text-black text-center">
+          <Card className="mx-4 bg-purply-white text-black text-center">
             <h1 className="text-2xl font-semibold">
               #makeuc on Twitter
             </h1>

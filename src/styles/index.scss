@@ -4,10 +4,11 @@
 
 .title {
   @extend .font-merriweather;
-  @extend .font-primary;
   @extend .tc;
   @extend .mb4;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
   text-decoration: underline;
   text-decoration-color: $secondary-dark;
 }

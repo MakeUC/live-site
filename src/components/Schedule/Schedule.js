@@ -11,6 +11,8 @@ import Paper from '@material-ui/core/Paper';
 import '../../styles/_font.scss'
 import '../../styles/_variables.scss'
 
+import './Schedule.scss'
+
 const useStyles = makeStyles({
   table: {
     font: 'Open Sans'
@@ -33,7 +35,7 @@ export default function BasicTable() {
   const classes = useStyles();
 
   return (
-    <TableContainer component={Paper}>
+    <TableContainer className="schedule-bg" component={Paper}>
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>

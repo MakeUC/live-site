@@ -19,7 +19,7 @@ function StatCard(props) {
   let [scrolled, setScrolled] = useState(0);
   return (
     <div className={props.className}>
-      <div className="p-12 br2 StatCard border border-solid mx-4 bg-white text-black text-center grow">
+      <div className="p-12 br2 StatCard border border-solid mx-4 text-black text-center grow">
         <CountUp
           start={0}
           end={props.amount}

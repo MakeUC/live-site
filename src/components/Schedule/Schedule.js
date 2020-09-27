@@ -39,19 +39,19 @@ export default function BasicTable() {
       <Table className={classes.table} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell><span className="font-primary b">Name</span></TableCell>
-            <TableCell align="right"><span className="font-primary b">Start</span></TableCell>
-            <TableCell align="right"><span className="font-primary b">End</span></TableCell>
+            <TableCell align="center"><span className="font-primary b">Name</span></TableCell>
+            <TableCell align="center"><span className="font-primary b">Start</span></TableCell>
+            <TableCell align="center"><span className="font-primary b">End</span></TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TableRow key={row.name}>
-              <TableCell component="th" scope="row">
+              <TableCell align="center" component="th" scope="row">
                 <span className="b">{row.name}</span>
               </TableCell>
-              <TableCell align="right">{row.start}</TableCell>
-              <TableCell align="right">{row.end}</TableCell>
+              <TableCell align="center">{row.start}</TableCell>
+              <TableCell align="center">{row.end}</TableCell>
             </TableRow>
           ))}
         </TableBody>

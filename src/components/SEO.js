@@ -23,15 +23,7 @@ export default () => {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="icon" href="/favicon.ico" type="image/x-icon"></link>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173527139-1"></script>
-    <script>
-      {`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-173527139-1');
-      `}
-    </script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" />
     <html lang="en" />
   </Helmet>;
 };

@@ -53,7 +53,9 @@ export default () => {
             <h1 className="text-2xl font-semibold">
               #makeuc on Twitter
             </h1>
-            <p>Twitter embed goes here</p>
+            <div style={{ width: `60%` }} className="mx-auto">
+              <a className="twitter-timeline" href="https://twitter.com/UC_IEEE?ref_src=twsrc%5Etfw">Tweets by UC_IEEE</a>
+            </div>
           </Card>
         </div>
       </section>

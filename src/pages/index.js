@@ -5,10 +5,9 @@ import StatCard from '../components/Stat Card/Stat Card';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/SEO';
 
-import MakeUCSchedule from '../components/MakeucSchedule';
 import Schedule from '../components/Schedule/Schedule';
+import Timer from '../components/Timer';
 
-import scheduleData from '../../content/schedule.yaml';
 import 'tachyons';
 import '../styles/index.scss';
 
@@ -23,9 +22,7 @@ export default () => {
               MAKEUC 2020
             </h1>
           </div>
-          <h2 className="f-subheadline-ns f1 b lh-solid font-merriweather index-countdown mv6 tc tracked-mega">
-            22:00:00
-          </h2>
+          <Timer />
         </div>
       </section>
       <section id="schedule" className="mt6">

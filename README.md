@@ -1,12 +1,12 @@
 # makeuc.io
 
-> MakeUC Hackathon Website. 
+Live MakeUC Site.
 
 ## Getting Started
 
 ```sh
-git clone https://github.com/MakeUC/makeuc.io.git
-cd makeuc.io
+git clone https://github.com/MakeUC/live-site.git
+cd live-site
 npm install
 gatsby develop
 ```

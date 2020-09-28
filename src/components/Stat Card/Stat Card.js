@@ -18,7 +18,16 @@ import './StatCard.scss';
 function StatCard(props) {
   let [scrolled, setScrolled] = useState(0);
 
-  let count = (start, done) => {
+  /**
+   * Higher order component to return function to start the countdown
+   * Need it cuz start() [The function to begin the animation] is only defined in the component!
+   * Also sets the scrolled state to 1 to flag user already scrolled past
+   * Done is basically scrolled (look the usage below)
+   * @param start: The function to begin animation as defined by the component below
+   * @param done: Whether the user scrolled past already
+   * @returns {function(): void}
+   */
+  let startCountUp = (start, done) => {
     return () => {
       console.log(`The stat ${props.name} is scrolled? ${scrolled}`)
       if (done === 0) {
@@ -26,7 +35,6 @@ function StatCard(props) {
         start();
       }
       setScrolled(1);
-      console.log(`Attempting to update ${props.name} : ${scrolled}`)
     }
   }
 
@@ -37,7 +45,7 @@ function StatCard(props) {
 
   // useEffect(() => {
   //   console.log(`Effect started yahoo: ${scrolled}`)
-  //    count = (start) => {
+  //    startCountUp = (start) => {
   //     return () => {
   //       console.log(`EFFECT :: The stat ${props.name} is scrolled? ${scrolled}`)
   //       if (scrolled === 0) {
@@ -48,7 +56,7 @@ function StatCard(props) {
   //       console.log(`Attempting to update ${props.name} : ${scrolled}`)
   //     }
   //   }
-  //   console.log(count)
+  //   console.log(startCountUp)
   // })
 
   return (
@@ -61,12 +69,11 @@ function StatCard(props) {
           separator=" "
           decimals={props.decimal}
           prefix={props.prefix}>
-          {({ countUpRef, start }) => (
+          {({ countUpRef, start }) => (  // start() starts the counter. <Waypoint> fires onEnter everytime user scrolls past
             <div>
               <h1 className="f1 lh-title font-merriweather" ref={countUpRef} />
-              <Waypoint onEnter={count(start, scrolled)}>
-              </Waypoint>
-              <button onClick={printState}>{scrolled}</button>
+              <Waypoint onEnter={startCountUp(start, scrolled)}> </Waypoint>
+              <button onClick={printState}>Scrolled state: {scrolled} [Clicking me also prints the scrolled state and increases it by one]</button>
             </div>
           )}
         </CountUp>

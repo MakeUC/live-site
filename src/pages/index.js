@@ -38,9 +38,9 @@ export default () => {
         <h2 className="text-3xl lg:text-5xl title font-semibold">Stats</h2>
         <div className="container mx-auto px-8 flex flex-wrap items-center justify-center">
           <StatCard className="ma3" name="Prizes" amount={95890} prefix={'$'} />
-          <StatCard className="ma3" name="Universities" amount={108} prefix={''} />
-          <StatCard className="ma3" name="Hackers" amount={139} prefix={''} />
-          <StatCard className="ma3" name="Majors" amount={115} prefix={''} />
+          {/*<StatCard className="ma3" name="Universities" amount={108} prefix={''} />*/}
+          {/*<StatCard className="ma3" name="Hackers" amount={139} prefix={''} />*/}
+          {/*<StatCard className="ma3" name="Majors" amount={115} prefix={''} />*/}
         </div>
       </section>
       <section id="social" className="mt6">

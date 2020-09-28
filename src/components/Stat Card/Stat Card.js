@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CountUp from 'react-countup';
 import { Waypoint } from 'react-waypoint';
 
@@ -17,23 +17,56 @@ import './StatCard.scss';
  */
 function StatCard(props) {
   let [scrolled, setScrolled] = useState(0);
+
+  let count = (start, done) => {
+    return () => {
+      console.log(`The stat ${props.name} is scrolled? ${scrolled}`)
+      if (done === 0) {
+        console.log(`Hitting now ${props.name} : Scrolled = ${scrolled}. Done? ${done}`)
+        start();
+      }
+      setScrolled(1);
+      console.log(`Attempting to update ${props.name} : ${scrolled}`)
+    }
+  }
+
+  let printState = () => {
+    console.log(`I'm a state printer: ${scrolled}`)
+    setScrolled(scrolled + 1)
+  }
+
+  // useEffect(() => {
+  //   console.log(`Effect started yahoo: ${scrolled}`)
+  //    count = (start) => {
+  //     return () => {
+  //       console.log(`EFFECT :: The stat ${props.name} is scrolled? ${scrolled}`)
+  //       if (scrolled === 0) {
+  //         console.log(`Hitting now ${props.name} : ${scrolled}`)
+  //         start();
+  //       }
+  //       setScrolled(1);
+  //       console.log(`Attempting to update ${props.name} : ${scrolled}`)
+  //     }
+  //   }
+  //   console.log(count)
+  // })
+
   return (
     <div className={props.className}>
       <div className="p-12 br2 StatCard border border-solid mx-4 text-black text-center grow">
         <CountUp
           start={0}
           end={props.amount}
-          duration={3}
+          duration={2}
           separator=" "
           decimals={props.decimal}
           prefix={props.prefix}>
           {({ countUpRef, start }) => (
             <div>
               <h1 className="f1 lh-title font-merriweather" ref={countUpRef} />
-              <Waypoint onEnter={() => {
-                start();
-              }}>
+              <Waypoint onEnter={count(start, scrolled)}>
               </Waypoint>
+              <button onClick={printState}>{scrolled}</button>
             </div>
           )}
         </CountUp>

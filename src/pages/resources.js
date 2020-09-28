@@ -182,7 +182,7 @@ export default () => {
   </Card>}
                   {res_sel === "twilio" &&   <Card className="mx-4 bg-white text-black text-center">
    <h1 className="text-2xl font-semibold">
-     Twilio Resources
+     Twilio Resource
    </h1>
    <p className="text-left">
      Will add later.

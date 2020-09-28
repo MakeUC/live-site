@@ -46,8 +46,8 @@ export default () => {
       <section id="social" className="mt6">
         <div className="container mx-auto px-8 text-center">
           <h2 className="text-3xl lg:text-5xl title font-semibold">Social Media</h2>
-          <Card className="mx-4 bg-purply-white text-black text-center">
-            <div style={{ width: `60%` }} className="mx-auto">
+          <Card style={{ maxWidth: `700px` }} className="mx-auto bg-purply-white text-black text-center pa0">
+            <div style={{ maxWidth: `700px` }} className="mx-auto">
               <a className="twitter-timeline" href="https://twitter.com/UC_IEEE?ref_src=twsrc%5Etfw">Tweets with #MakeUC20</a>
             </div>
           </Card>

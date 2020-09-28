@@ -37,7 +37,6 @@ function StatCard(props) {
             </div>
           )}
         </CountUp>
-
         <h2 className="f2 lh-title font-opensans font-gray b">{props.name} </h2>
       </div>
     </div>

@@ -2,6 +2,7 @@
 @import "../../styles/font";
 
 .StatCard {
-  width: 320px;
+  min-width: 300px;
+  max-width: 400px;
   background-color: $bg-white;
 }

@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import './Timer.scss'
+import '../../styles/_variables.scss'
+import '../../styles/_font.scss'
 
 const startTime = new Date(`2020-10-03T16:00:00+00:00`);
 const endTime = new Date(`2020-10-04T16:00:00+00:00`);
@@ -42,10 +45,10 @@ const Timer = () => {
   }, []);
 
   return <>
-    <h2 className="f-subheadline-ns f1 b lh-solid font-merriweather index-countdown tc tracked-mega">
+    <h2 className="f-subheadline-ns f1 b lh-solid font-merriweather index-countdown tc timer-letter-spacing">
       {eta}
     </h2>
-    <h1>{isStarted ? `Until Hacking stops` : `Until Hacking starts`}</h1>
+    <h1 className="index-countdown font-opensans">{isStarted ? `Until Hacking stops` : `Until Hacking starts`}</h1>
   </>;
 };
 

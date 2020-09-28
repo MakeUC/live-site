@@ -6,7 +6,7 @@ import Layout from '../components/layout/Layout';
 import SEO from '../components/SEO';
 
 import Schedule from '../components/Schedule/Schedule';
-import Timer from '../components/Timer';
+import Timer from '../components/Timer/Timer';
 
 import 'tachyons';
 import '../styles/index.scss';

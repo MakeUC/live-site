@@ -52,7 +52,7 @@ const workShopRows = [
   createData('Reverse Engineering with Ghidra', 'Oct 3 - 1:30 PM', 'Oct 3 - 2:00 PM'),
   createData('Google Cloud Hero Competition', 'Oct 3 - 2:30 PM', 'Oct 3 - 3:00 PM'),
   createData('Build Your Professional Brand', 'Oct 3 - 3:30 PM', 'Oct 4 - 4:00 PM'),
-  createData('Security and Trust in Microelectronics', 'Oct 3 - 4:30 PM', 'Oct 4 - 5:00 PM'),
+  createData('Security and Trust in Micro electronics', 'Oct 3 - 4:30 PM', 'Oct 4 - 5:00 PM'),
   createData('Brand Storytelling By Microsoft\'s Miri Rodriguez', 'Oct 3 - 5:30 PM', 'Oct 3 - 6:00 PM'),
   createData('Ohio Cyber Range Institute Cyber Games', 'Oct 3 - 6:30 PM', 'Oct 3 - 7:00 PM'),
   createData('Capture The Flag By MLH and USAF', 'Oct 3 - 8:00 PM', 'Oct 3 - 9:00 PM')
@@ -63,7 +63,7 @@ export default function BasicTable() {
 
   return (
     <div>
-      <h1 className="index-countdown font-opensans">Overview</h1>
+      <h1 className="index-countdown b font-opensans">Overview</h1>
       <TableContainer className="schedule-bg" component={Paper}>
         <Table className={classes.table + " schedule-table"} aria-label="simple table">
           <TableHead>
@@ -87,7 +87,7 @@ export default function BasicTable() {
         </Table>
       </TableContainer>
 
-      <h1 className="index-countdown font-opensans">Workshops</h1>
+      <h1 className="index-countdown b font-opensans">Workshops</h1>
       <TableContainer className="schedule-bg mv3" component={Paper}>
         <Table className={classes.table + " schedule-table"} aria-label="simple table">
           <TableHead>
@@ -111,7 +111,7 @@ export default function BasicTable() {
         </Table>
       </TableContainer>
 
-      <h1 className="index-countdown font-opensans">Sponsor Expo</h1>
+      <h1 className="index-countdown b font-opensans">Sponsor Expo</h1>
       <TableContainer className="schedule-bg mv3" component={Paper}>
         <Table className={classes.table + " schedule-table"} aria-label="simple table">
           <TableHead>

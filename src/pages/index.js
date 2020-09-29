@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import StatCard from '../components/Stat Card/Stat Card';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/SEO';
@@ -36,10 +36,10 @@ export default () => {
       <section id="data" className="mt6">
         <h2 className="text-3xl lg:text-5xl title font-semibold">Stats</h2>
         <div className="container mx-auto px-8 flex flex-wrap items-center justify-center">
-          <StatCard className="ma3" name="Hackers" amount={1000} prefix={''} />
+          <StatCard className="ma3" name="Registrants" amount={1000} prefix={''} />
           <StatCard className="ma3" name="Universities" amount={300} prefix={''} />
           <StatCard className="ma3" name="Countries" amount={40} prefix={''} />
-          <StatCard className="ma3" name="Majors" amount={120} prefix={''} />
+          <StatCard className="ma3" name="Majors" amount={130} prefix={''} />
           <StatCard className="ma3" name="Sponsors" amount={18} prefix={''} />
         </div>
       </section>

@@ -282,11 +282,11 @@ const freeResources = [
       <br></br>
       Resource Link:&nbsp;
       <a target="_blank"
-         href="https://github.com/sahat/hackathon-starter">https://github.com/sahat/hackathon-starter</a>
+         href="https://github.com/sahat/hackathon-starter">github.com/sahat/hackathon-starter</a>
       <br></br>
       Live Demo:&nbsp;
       <a target="_blank"
-         href="https://hackathon-starter.walcony.com/">https://hackathon-starter.walcony.com/</a>
+         href="https://hackathon-starter.walcony.com/">hackathon-starter.walcony.com</a>
       <br></br>
       <br></br>
       If you have attended any hackathons in the past, then you know how much time it takes to get a

@@ -51,8 +51,8 @@
 
 /* Style the accordion content panel. Note: hidden by default */
 .accordion__content {
-  @extend .f4;
   @extend .font-opensans;
+  font-size: 20px;
   background-color: transparent;
   overflow: hidden;
   transition: max-height 0.6s ease;
@@ -60,8 +60,8 @@
 
 /* Style the accordion content text */
 .accordion__text {
-  font-family: 'Open Sans', sans-serif;
+  @extend .font-opensans;
+  font-size: 20px;
   font-weight: 400;
-  font-size: 14px;
   padding: 18px;
 }

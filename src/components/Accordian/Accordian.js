@@ -47,7 +47,7 @@ function Accordion(props) {
         style={{ maxHeight: `${setHeight}` }}
         className="accordion__content"
       >
-        <div className="accordion__text"> {props.content} </div>
+        <div className="accordion__text mb1"> {props.content} </div>
       </div>
     </div>
   );

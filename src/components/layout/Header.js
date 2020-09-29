@@ -49,7 +49,7 @@ const Header = ({ page = `index` } = {}) => {
             <Link className="px-4 lg:px-10 nav-link" to="/resources">
               Resources
             </Link>
-            <Link className="px-4 lg:px-10 nav-link" to="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">
+            <Link className="px-4 lg:px-10 nav-link" target="_blank" to="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">
               Prizes
             </Link>
           </div>

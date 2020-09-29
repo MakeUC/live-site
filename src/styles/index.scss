@@ -44,5 +44,9 @@ body, html {
 }
 
 .index-countdown {
-  color: #e2deff
+  color: $bg-white
+}
+
+.timeline-Header, .timeline-Viewport {
+  background-color: $bg-white;
 }

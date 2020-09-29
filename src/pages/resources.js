@@ -633,8 +633,8 @@ export default () => {
       <SEO />
       <section id="countdown" className="">
         <div className="container mx-auto mt-10">
-          <h2 className="text-3xl lg:text-5xl font-semibold text-center">
-            Resources
+          <h2 className="text-3xl lg:text-5xl title font-semibold">
+            Sponsor Resources
           </h2>
         </div>
         <div className="container mx-auto mt-10">
@@ -649,6 +649,13 @@ export default () => {
             })
           }
           </Card>
+        </div>
+
+
+        <div className="container mx-auto mt-10">
+          <h2 className="text-3xl lg:text-5xl title font-semibold">
+            Free Resources
+          </h2>
         </div>
         <div className="container mx-auto mt-10">
           <Card className="bg-purply-white text-black">

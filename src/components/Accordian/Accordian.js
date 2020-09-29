@@ -47,10 +47,7 @@ function Accordion(props) {
         style={{ maxHeight: `${setHeight}` }}
         className="accordion__content"
       >
-        <div
-          className="accordion__text"
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        />
+        <div className="accordion__text"> {props.content} </div>
       </div>
     </div>
   );

@@ -2,9 +2,10 @@ import React, { Component, useState } from 'react';
 import Layout from '../components/layout/Layout';
 import SEO from '../components/SEO';
 import Card from '../components/Card';
+import Accordion from '../components/Accordian/Accordian';
 
-function createResource(name, resourceDetails) {
-  return { name, resourceDetails };
+function createResource(name, details) {
+  return { name, details };
 }
 
 const sponsorResources = [
@@ -637,7 +638,30 @@ export default () => {
           </h2>
         </div>
         <div className="container mx-auto mt-10">
-          // ACCORDIAN HERE
+          <Card className="bg-purply-white text-black">
+          {
+            sponsorResources.map(resource => {
+              return <Accordion
+                key={resource.name}
+                title={resource.name}
+                content={resource.details}
+              />;
+            })
+          }
+          </Card>
+        </div>
+        <div className="container mx-auto mt-10">
+          <Card className="bg-purply-white text-black">
+            {
+              freeResources.map(resource => {
+                return <Accordion
+                  key={resource.name}
+                  title={resource.name}
+                  content={resource.details}
+                />;
+              })
+            }
+          </Card>
         </div>
       </section>
     </Layout>

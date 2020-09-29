@@ -26,7 +26,9 @@ function StatCard(props) {
           duration={3}
           separator=" "
           decimals={props.decimal}
-          prefix={props.prefix}>
+          prefix={props.prefix}
+          suffix={"+"}
+        >
           {({ countUpRef, start }) => (
             <div>
               <h1 className="f1 lh-title font-merriweather" ref={countUpRef} />

@@ -45,10 +45,10 @@ const Timer = () => {
   }, []);
 
   return <>
-    <h2 className="f-subheadline-ns f2 b lh-solid font-merriweather index-countdown tc timer-letter-spacing">
+    <h2 className="text-4xl md:text-6xl font-bold lh-solid font-merriweather index-countdown tc timer-letter-spacing">
       {eta}
     </h2>
-    <h1 className="index-countdown f3 font-opensans">{isStarted ? `Until Hacking STOPS` : `Until Hacking STARTS `} </h1>
+    <h1 className="index-countdown text-2xl md:text-4xl font-opensans">{isStarted ? `Until Hacking STOPS` : `Until Hacking STARTS `} </h1>
   </>;
 };
 

@@ -16,18 +16,21 @@ import './StatCard.scss';
  * @constructor
  */
 function StatCard(props) {
-  let [scrolled, setScrolled] = useState(0);
+  let [scrolled, setScrolled] = useState(false);
   return (
     <div className={props.className}>
       <div className="p-12 br2 StatCard border border-solid mx-4 text-black text-center grow">
         <CountUp
           start={0}
           end={props.amount}
-          duration={1}
+          duration={scrolled? 0.001: 1}
           separator=" "
           decimals={props.decimal}
           prefix={props.prefix}
           suffix={"+"}
+          onEnd={() => {
+            setScrolled(true)
+          }}
         >
           {({ countUpRef, start }) => (
             <div>

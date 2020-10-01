@@ -68,8 +68,7 @@ export default function BasicTable() {
 
   return (
     <div>
-      <br></br>
-      <h1 className="index-countdown b font-opensans">Overview</h1>
+      <h1 className="index-countdown b mt0 font-opensans">Overview</h1>
       <TableContainer className="schedule-bg" component={Paper}>
         <Table className={classes.table + " schedule-table"} aria-label="simple table">
           <TableHead>

@@ -7,11 +7,14 @@ import SEO from '../components/SEO';
 
 import Schedule from '../components/Schedule/Schedule';
 import Timer from '../components/Timer/Timer';
+import useStats from '../components/StatsHook';
 
 import 'tachyons';
 import '../styles/index.scss';
 
 export default () => {
+  const { Registrants, Universities, Countries, Majors } = useStats();
+
   return (
     <Layout>
       <SEO />
@@ -36,11 +39,11 @@ export default () => {
       <section id="data" className="mt6">
         <h2 className="text-3xl lg:text-5xl title font-semibold">Stats</h2>
         <div className="container mx-auto px-8 flex flex-wrap items-center justify-center">
-          <StatCard className="ma3" name="Registrants" amount={1000} prefix={''} />
-          <StatCard className="ma3" name="Universities" amount={300} prefix={''} />
-          <StatCard className="ma3" name="Countries" amount={40} prefix={''} />
-          <StatCard className="ma3" name="Majors" amount={130} prefix={''} />
-          <StatCard className="ma3" name="Sponsors" amount={18} prefix={''} />
+          <StatCard className="ma3" name="Registrants" amount={Registrants} />
+          <StatCard className="ma3" name="Universities" amount={Universities} />
+          <StatCard className="ma3" name="Countries" amount={Countries} />
+          <StatCard className="ma3" name="Majors" amount={Majors} />
+          <StatCard className="ma3" name="Sponsors" amount={18} />
         </div>
       </section>
       {/*<section id="social" className="mt6">*/}

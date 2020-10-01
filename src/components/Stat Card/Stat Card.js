@@ -27,7 +27,7 @@ function StatCard(props) {
           separator=" "
           decimals={props.decimal}
           prefix={props.prefix}
-          suffix={"+"}
+          // suffix={"+"}
           onEnd={() => {
             setScrolled(true)
           }}

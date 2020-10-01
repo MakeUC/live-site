@@ -31,11 +31,11 @@ export default () => {
       <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt5">
         <button><a target="_blank"
                    className="primary-button ma2"
-                   href="https://join.slack.com/t/makeuc-2020/shared_invite/zt-hs1ev57m-WmnWjiwgCMy87mZDmcIS4A">Slack</a>
+                   href="https://join.slack.com/t/makeuc-2020/shared_invite/zt-hs1ev57m-WmnWjiwgCMy87mZDmcIS4A">Join Slack</a>
         </button>
         <button><a target="_blank"
                    className="primary-button ma2"
-                   href="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Devpost</a>
+                   href="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Our Devpost</a>
         </button>
       </div>
       <section id="schedule" className="mt6">

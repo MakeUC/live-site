@@ -9,9 +9,15 @@ function createResource(name, details) {
 }
 
 const sponsorResources = [
-  createResource('Major League Hacking',
+  createResource('MLH',
   (
     <p className="text-left">
+      <strong>Hacker Cheat Sheet</strong>
+      <br></br>
+      <br></br>
+      <a target="_blank" href="https://hack.mlh.io/">hack.mlh.io</a>
+      <br></br>
+      <br></br>
       <strong>MLH Software Lab</strong>
       <br></br>
       <br></br>
@@ -25,12 +31,97 @@ const sponsorResources = [
       <br></br>
     </p>
   )),
+  createResource('Wolfram Research',
+  (
+    <p className="text-left">
+    <strong>Wolfram API</strong>
+    <br></br>
+    <br></br>
+    <strong>API activation URL will be shared with MakeUC hackers on or earlier than October 3rd.</strong>
+    <br></br>
+    <br></br>
+    The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
+    don't already have
+    a Wolfram ID, you'll be prompted to create one using an active email address. Once logged in, you
+    will see in the Downloads section which platforms of the software you have access to, with their accompanying
+    activation keys.
+    <br></br>
+    <br></br>
+    Please download the desktop version to your machine, boot up the application and use the associated
+    activation key
+    when prompted. This will grant you full access for 30 days from your activation date.
+    <br></br>
+    <br></br>
+    When you access Wolfram|One in the cloud for the first time, you can create a new notebook or load a
+    pre-made
+    Things to Try live notebook, which is designed to guide you through neat things you can immediately
+    compute.
+    <br></br>
+    <br></br>
+    You can use Wolfram|One to create instant web apps and APIs, or to deploy to mobile. The Wolfram
+    Language is also
+    bundled on the Raspberry Pi, where you can connect directly to hardware, including Arduino etc.
+    <br></br>
+    <br></br>
+    The fastest way to get an API up and running is detailed in the extensive Documentation Center
+    available to you
+    alongside your notebook: simply click the section in the documentation labeled Cloud and Deployment
+    and select
+    Instant APIs to access a handy how-to guide to help get you started.
+    <br></br>
+    <br></br>
+    To view your account details-- including your available Cloud Credits and Cloud storage-- or
+    re-download Wolfram|One,
+    visit the following page:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://account.wolfram.com/products">account.wolfram.com/products</a>
+    <br></br>
+    <br></br>
+    Wolfram|One is the world's first fully integrated cloud-desktop hybrid, integrated computation
+    platform.
+    The core of our technology stack is the Wolfram Language, which builds on three decades of
+    development, and
+    represents a new direction in programming-- that happens to be absolutely ideal for hackathons.
+    <br></br>
+    <br></br>
+    <strong>Careers</strong>
+    <br></br>
+    <br></br>
+    Wolfram Summer Programs has offerings for exceptional teens in high school as well as undergrads
+    through post-docs. 
+    <br></br>
+    <br></br>
+    These programs are for those interested in programming, computational thinking, machine
+    learning, and innovative tech. Students create and complete a unique project to publish 
+    during the program. 
+    <br></br>
+    <br></br>
+    To sign up for 2021 registration announcements visit:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://education.wolfram.com/summer/">education.wolfram.com/summer</a>
+    <br></br>
+    <br></br>
+    Interested in Wolfram mentorships or internships? Check out our opportunities here:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://www.wolfram.com/company/careers">wolfram.com/company/careers</a>
+    <br></br>
+    <br></br>
+    Good luck, and happy hacking!
+    <br></br>
+  </p>
+  )),
   createResource('Google Cloud', (
     <p className="text-left">
       <strong>Google Cloud Credits</strong>
       <br></br>
       <br></br>
-      $25 of Google Cloud credits will be emailed on or earlier than October 3rd.
+      $25 of Google Cloud credits will be with MakeUC hackers on or earlier than October 3rd.
       <br></br>
       <br></br>
       <strong>Intro to Firebase (Available at 3:30 PM EDT on Oct 3rd)</strong>
@@ -40,91 +131,22 @@ const sponsorResources = [
       Andrea Wu, a Software Engineer at Google, will be sharing an exclusive talk with all MakeUC hackers on Slack.
       <br></br>
     </p>)),
-  createResource('Wolfram Research',
-    (
+    createResource('Twilio', (
       <p className="text-left">
-      <strong>Wolfram API</strong>
-      <br></br>
-      <br></br>
-      <strong>API activation URL will be shared with MakeUC hackers on or earlier than October 3rd.</strong>
-      <br></br>
-      <br></br>
-      The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
-      don't already have
-      a Wolfram ID, you'll be prompted to create one using an active email address. Once logged in, you
-      will see in the Downloads section which platforms of the software you have access to, with their accompanying
-      activation keys.
-      <br></br>
-      <br></br>
-      Please download the desktop version to your machine, boot up the application and use the associated
-      activation key
-      when prompted. This will grant you full access for 30 days from your activation date.
-      <br></br>
-      <br></br>
-      When you access Wolfram|One in the cloud for the first time, you can create a new notebook or load a
-      pre-made
-      Things to Try live notebook, which is designed to guide you through neat things you can immediately
-      compute.
-      <br></br>
-      <br></br>
-      You can use Wolfram|One to create instant web apps and APIs, or to deploy to mobile. The Wolfram
-      Language is also
-      bundled on the Raspberry Pi, where you can connect directly to hardware, including Arduino etc.
-      <br></br>
-      <br></br>
-      The fastest way to get an API up and running is detailed in the extensive Documentation Center
-      available to you
-      alongside your notebook: simply click the section in the documentation labeled Cloud and Deployment
-      and select
-      Instant APIs to access a handy how-to guide to help get you started.
-      <br></br>
-      <br></br>
-      To view your account details-- including your available Cloud Credits and Cloud storage-- or
-      re-download Wolfram|One,
-      visit the following page:
-      <br></br>
-      <br></br>
-      <a target="_blank"
-          href="https://account.wolfram.com/products">account.wolfram.com/products</a>
-      <br></br>
-      <br></br>
-      Wolfram|One is the world's first fully integrated cloud-desktop hybrid, integrated computation
-      platform.
-      The core of our technology stack is the Wolfram Language, which builds on three decades of
-      development, and
-      represents a new direction in programming-- that happens to be absolutely ideal for hackathons.
-      <br></br>
-      <br></br>
-      <strong>Careers</strong>
-      <br></br>
-      <br></br>
-      Wolfram Summer Programs has offerings for exceptional teens in high school as well as undergrads
-      through post-docs. 
-      <br></br>
-      <br></br>
-      These programs are for those interested in programming, computational thinking, machine
-      learning, and innovative tech. Students create and complete a unique project to publish 
-      during the program. 
-      <br></br>
-      <br></br>
-      To sign up for 2021 registration announcements visit:
-      <br></br>
-      <br></br>
-      <a target="_blank"
-          href="https://education.wolfram.com/summer/">education.wolfram.com/summer</a>
-      <br></br>
-      <br></br>
-      Interested in Wolfram mentorships or internships? Check out our opportunities here:
-      <br></br>
-      <br></br>
-      <a target="_blank"
-          href="https://www.wolfram.com/company/careers">wolfram.com/company/careers</a>
-      <br></br>
-      <br></br>
-      Good luck, and happy hacking!
-      <br></br>
-    </p>
-    )),
+        <strong>Twilio Credits</strong>
+        <br></br>
+        <br></br>
+        $30 of Twilio credits will be with MakeUC hackers on or earlier than October 3rd.
+        <br></br>
+      </p>)),
+    createResource('DigitalOcean', (
+      <p className="text-left">
+        <strong>$100, 60-day Free Access to DO Developer Cloud</strong>
+        <br></br>
+        <br></br>
+        <a target="_blank" href="https://try.digitalocean.com/developer-cloud">try.digitalocean.com/developer-cloud</a>  
+        <br></br>
+      </p>)),
   createResource('Balsamiq',
     (
       <p className="text-left">
@@ -156,6 +178,36 @@ const sponsorResources = [
         <br></br>
       </p>
     )),
+    createResource('Linode',
+    (
+      <p className="text-left">
+        <strong>Getting Started</strong>
+        <br></br>
+        <br></br>
+        Head to <a target="_blank" href="https://linode.com/">linode.com</a> and use code 
+        <a target="_blank" href="https://login.linode.com/signup?promo=Hack20"> HACK20 </a> 
+        to get $20 towards your first project in the alternative cloud. 
+        Not sure where to get started? <a target="_blank" href="https://www.linode.com/docs/getting-started/">Read our Getting Started Guide</a>.
+        <br></br>
+        <br></br>
+        <strong>Free Swag</strong>
+        <br></br>
+        <br></br>
+        We hope you’re excited to get hacking right from the comfort of your own couch! 
+        <br></br><br></br>
+        Even if we can’t get together 
+        to create and code during an in-person hackathon, Linode wants to maintain some normalcy during this crazy time 
+        by offering <strong>free swag</strong> that ships straight to your front door. If interested, the link will be 
+        shared in the Opening Ceremony on October 3rd.
+        <br></br>
+        <br></br>
+        <strong>Customer Support Team</strong>
+        <br></br>
+        <br></br>
+        <a target="_blank" href="https://www.linode.com/support/">linode.com/support</a>
+        <br></br>
+      </p>
+    )),
   createResource('EchoAR',
     (
       <p className="text-left">
@@ -172,15 +224,40 @@ const sponsorResources = [
         <br></br>
         <strong>API access information will be shared with MakeUC hackers on or earlier than October 3rd.</strong>
         <br></br>
+        <br></br>
+        <strong>Documentation</strong>
+        <br></br>
+        <br></br>
+        <a target="_target" href="https://docs.echoar.xyz/">docs.echoar.xyz</a>
+        <br></br>
+        <br></br>
+        <strong>echoAR on GitHub</strong>
+        <br></br>
+        <br></br>
+        <a target="_target" href="https://github.com/echoARxyz">github.com/echoARxyz</a>
+        <br></br>
+        <br></br>
+        <strong>Build a Cloud Connected AR/VR App</strong>
+        <br></br>
+        <br></br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WlstP0i2GnQ" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br></br>
+        The workshop will show how to quickly create AR/VR apps with 
+        no technical skills or coding required and scale existing apps by connecting them to the cloud. Workshop 
+        participants will learn how to create real-time cloud-connected AR/VR apps using echoAR. 
+        Participants are encouraged to bring a laptop and a smartphone, or just follow along the live demonstration. 
+        Platforms for experimentation include: Google ARCore, WebXR, Vuforia, Unity-based apps, and more. 
+        <br></br>
       </p>
     ))
 ];
 const freeResources = [
   createResource('Starter Kits', (
     <p className="text-left">
-      <strong><u>
-        Build Your Own:
-      </u></strong>
+      <strong>
+        Build Your Own
+      </strong>
       <br></br>
       <br></br>
       <div className="flex mb-4">
@@ -275,9 +352,9 @@ const freeResources = [
         </div>
       </div>
       <br></br>
-      <strong><u>
-        Boilerplate for Node.js applications
-      </u></strong>
+      <strong>
+        Boilerplate for Node.js Applications
+      </strong>
       <br></br>
       <br></br>
       Resource Link:&nbsp;

@@ -28,13 +28,21 @@ export default () => {
           <Timer />
         </div>
       </section>
-      <a target="_blank" to="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Devpost</a>
-      <a target="_blank" to="https://join.slack.com/t/makeuc-2020/shared_invite/zt-hs1ev57m-WmnWjiwgCMy87mZDmcIS4A">Slack</a>
+      <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt5">
+        <button><a target="_blank"
+                   className="primary-button ma2"
+                   href="https://join.slack.com/t/makeuc-2020/shared_invite/zt-hs1ev57m-WmnWjiwgCMy87mZDmcIS4A">Slack</a>
+        </button>
+        <button><a target="_blank"
+                   className="primary-button ma2"
+                   href="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Devpost</a>
+        </button>
+      </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">
           <h2 className="text-3xl lg:text-5xl title font-semibold">Schedule</h2>
           <div className="">
-            <Schedule/>
+            <Schedule />
           </div>
         </div>
       </section>

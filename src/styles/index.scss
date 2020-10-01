@@ -31,3 +31,25 @@ body, html {
 .timeline-Header, .timeline-Viewport {
   background-color: $purple-white;
 }
+
+.primary-button {
+  background-color: $primary;
+  border-radius: 5px;
+  border:1px solid $black;
+  display:inline-block;
+  cursor:pointer;
+  color: $purple-white;
+  font-size:17px;
+  padding:16px 31px;
+  text-decoration:none;
+
+  &:hover {
+    background-color: $primary-dark;
+    color: $purple-white;
+  }
+
+  &:active {
+    position:relative;
+    top:1px;
+  }
+}

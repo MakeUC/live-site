@@ -21,7 +21,7 @@ export default () => {
       <section id="countdown" className="">
         <div className="container mx-auto tc mt-10">
           <div className="mv5">
-            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked">
+            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2">
               MAKEUC 2020
             </h1>
           </div>

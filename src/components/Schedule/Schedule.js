@@ -45,7 +45,6 @@ const generalRows = [
 const sponsorRows = [
   createData('Cincinnati Bell Technology Solutions', 'Oct 3 - 1:00 PM', 'Oct 3 - 2:00 PM'),
   createData('Ohio Cyber Range Institute', 'Oct 3 - 1:00 PM', 'Oct 3 - 4:00 PM'),
-  createData('Marathon Petroleum Corporation', 'Oct 3 - 1:00 PM', 'Oct 3 - 4:00 PM'),
   createData('Brooksource', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData('Northrop Grumman', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData('Centauri', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),

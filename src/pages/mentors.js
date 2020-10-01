@@ -118,7 +118,7 @@ export default () => {
           <MentorCard name={"Sean Collard"}
             className=""
             slack={"[Centauri] pending"}
-            speciality={"Linux, C/C++, Python, Verilog, Microcontrollers"}
+            speciality={"Linux, Python, C, Verilog, Microcontrollers"}
           />
           <MentorCard name={"Kamari Wright"}
             className=""
@@ -132,8 +132,23 @@ export default () => {
           />
           <MentorCard name={"Mihir Patel"}
             className=""
-            slack={"pending"}
+            slack={"[Mentor Web] Mihir Patel"}
             speciality={"React, Web Development, JavaScript, TypeScript"}
+          />
+          <MentorCard name={"Kuldeep Singh"}
+            className=""
+            slack={"pending"}
+            speciality={"HTML, CSS, React.js, Node.js, GraphQL, Python"}
+          />
+          <MentorCard name={"Raman Sampath"}
+            className=""
+            slack={"pending"}
+            speciality={"Enterprise Architecture, Data Architecture"}
+          />
+          <MentorCard name={"Jakob Jarvis"}
+            className=""
+            slack={"pending"}
+            speciality={"SQL, Python"}
           />
         </div>
       </section>

@@ -25,6 +25,11 @@ export default () => {
               speciality={mentor.speciality}
             />
           )} */}
+          <MentorCard name={"Michael Rybak"}
+            className=""
+            slack={"[Google] Michael Rybak"}
+            speciality={"Google Cloud Platform"}
+          />
           <MentorCard name={"Alfonso Portillo"}
             className=""
             slack={"[Google Cloud] alfporti"}

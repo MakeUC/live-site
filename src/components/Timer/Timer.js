@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import './Timer.scss'
-import '../../styles/_variables.scss'
-import '../../styles/_font.scss'
+import './Timer.scss';
+import '../../styles/_variables.scss';
+import '../../styles/_font.scss';
 
 const startTime = new Date(`2020-10-03T16:00:00+00:00`);
 const endTime = new Date(`2020-10-04T16:00:00+00:00`);
@@ -24,12 +24,18 @@ const msToTime = ms => {
   return `${hours}:${minutes}:${seconds}`;
 };
 
-const getETA = () => {
+const getETA = clearTick => {
   const now = new Date();
   const etaToStart = startTime.getTime() - now.getTime();
 
   if(etaToStart < 0) {
     const etaToEnd = endTime.getTime() - now.getTime();
+
+    if(etaToEnd < 0) {
+      clearTick();
+      return [ 0, true ];
+    }
+
     return [ msToTime(etaToEnd), true ];
   }
 
@@ -37,18 +43,29 @@ const getETA = () => {
 };
 
 const Timer = () => {
-  const [ [ eta, isStarted ], setEta ] = useState([]);
+  const [ [ eta, isStarted ], setEta ] = useState([ `24:00:00`, true ]);
 
   useEffect(() => {
-    const tick = setInterval(() => setEta(getETA()), 1000);
-    return () => clearInterval(tick);
+    const tick = setInterval(() => setEta(getETA(clearTick)), 1000);
+
+    function clearTick() { clearInterval(tick); };
+
+    return clearTick;
   }, []);
 
   return <>
     <h2 className="f-subheadline-ns f2 b lh-solid font-merriweather index-countdown tc timer-letter-spacing">
-      {eta}
+      {eta || `Hacking has ended!`}
     </h2>
-    <h1 className="index-countdown f3 font-opensans">{isStarted ? `Until Hacking STOPS` : `Until Hacking STARTS `} </h1>
+    <h1 className="index-countdown f3 font-opensans">
+      {eta ?
+        (
+          isStarted ?
+            `Until Hacking STOPS` :
+            `Until Hacking STARTS `
+        ) : null
+      }
+    </h1>
   </>;
 };
 

@@ -18,18 +18,28 @@ export default () => {
       <section id="countdown" className="">
         <div className="container mx-auto tc mt-10">
           <div className="mv5">
-            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked">
+            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2">
               MAKEUC 2020
             </h1>
           </div>
           <Timer />
         </div>
       </section>
+      <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt5">
+        <button><a target="_blank"
+                   className="primary-button ma2"
+                   href="https://join.slack.com/t/makeuc-2020/shared_invite/zt-hs1ev57m-WmnWjiwgCMy87mZDmcIS4A">Join Slack</a>
+        </button>
+        <button><a target="_blank"
+                   className="primary-button ma2"
+                   href="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Our Devpost</a>
+        </button>
+      </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">
           <h2 className="text-3xl lg:text-5xl title font-semibold">Schedule</h2>
           <div className="">
-            <Schedule/>
+            <Schedule />
           </div>
         </div>
       </section>

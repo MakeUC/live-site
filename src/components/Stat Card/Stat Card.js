@@ -23,7 +23,7 @@ function StatCard(props) {
         <CountUp
           start={0}
           end={props.amount}
-          duration={scrolled? 0.001: 1}
+          duration={scrolled? 0.001: 3 }
           separator=" "
           decimals={props.decimal}
           prefix={props.prefix}

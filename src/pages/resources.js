@@ -121,7 +121,7 @@ const sponsorResources = [
       <strong>Google Cloud Credits</strong>
       <br></br>
       <br></br>
-      $25 of Google Cloud credits will be with MakeUC hackers on or earlier than October 3rd.
+      $25 of Google Cloud credits will be shared with MakeUC hackers on or earlier than October 3rd.
       <br></br>
       <br></br>
       <strong>Intro to Firebase (Available at 3:30 PM EDT on Oct 3rd)</strong>

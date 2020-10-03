@@ -37,7 +37,11 @@ const sponsorResources = [
     <strong>Wolfram API</strong>
     <br></br>
     <br></br>
-    <strong>API activation URL will be shared with MakeUC hackers on or earlier than October 3rd.</strong>
+    <strong>Redeem here.</strong>
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://account.wolfram.com/redeem/MakeUC1020">account.wolfram.com/redeem/MakeUC1020</a>
     <br></br>
     <br></br>
     The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
@@ -168,7 +172,7 @@ const sponsorResources = [
         <br></br>
         <strong>Product:</strong> <a target="_blank" href="https://balsamiq.cloud/">Balsamiq Cloud</a>
         <br></br>
-        <strong>Promo Code will be shared with MakeUC hackers on or earlier than October 3rd.</strong>
+        <strong>Promo Code:</strong> BQUNYNWME100221
         <br></br>
         <strong>Code Expiration:</strong> February 01, 2021
         <br></br>
@@ -222,7 +226,10 @@ const sponsorResources = [
         for XR-enthusiasts (just like us!) to scale up their 3D applications and immersive content.
         <br></br>
         <br></br>
-        <strong>API access information will be shared with MakeUC hackers on or earlier than October 3rd.</strong>
+        <strong>Sign up</strong>
+        <br></br>
+        <br></br>
+        <a target="_target" href="https://console.echoar.xyz/#/auth/register-hackathon?code=MakeUC">console.echoar.xyz/#/auth/register-hackathon?code=MakeUC</a>
         <br></br>
         <br></br>
         <strong>Documentation</strong>

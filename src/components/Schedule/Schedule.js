@@ -27,33 +27,33 @@ const generalRows = [
   createData('Check-In', 'Oct 3 - 10:00 AM', 'Oct 3 - 11:15 AM'),
   createData(<a target="_blank" href="https://youtu.be/J8qIUGyic40">Opening Ceremony</a>, 'Oct 3 - 11:15 AM', 'Oct 3 - 12:00 PM'),
   createData('Hacking', 'Oct 3 - 12:00 PM', 'Oct 4 - 12:00 PM'),
-  createData(<a target="_blank" href="https://youtu.be/SZ7oMSRMEII">Team Formation</a>, 'Oct 3 - 12:00 PM', 'Oct 3 - 12:30 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/84643114941">Team Formation</a>, 'Oct 3 - 12:00 PM', 'Oct 3 - 12:30 PM'),
   createData(<a target="_blank" href="https://youtu.be/RgTrYToCHdY">Hackathon 101</a>, 'Oct 3 - 12:30 PM', 'Oct 3 - 1:00 PM'),
-  createData('Sponsor Expo', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData(<a target="_blank" href="https://youtu.be/8UYZ8KMAd1s">Bob Ross MS Paint</a>, 'Oct 3 - 7:00 PM', 'Oct 3 - 7:30 PM'),
-  createData('Quiplash 2', 'Oct 3 - 9:00 PM', 'Oct 3 - 10:00 PM'),
-  createData('Kahoot Trivia', 'Oct 3 - 10:00 PM', 'Oct 3 - 10:30 PM'),
-  createData('Scribble.io', 'Oct 3 - 11:00 PM', 'Oct 4 - 12:00 AM'),
-  createData('Lightning Talk', 'Oct 4 - 12:30 AM', 'Oct 4 - 1:00 AM'),
-  createData('Trivia Murder Party', 'Oct 4 - 2:00 AM', 'Oct 4 - 3:00 AM'),
-  createData('Website Contest', 'Oct 4 - 4:30 AM', 'Oct 4 - 5:30 AM'),
-  createData('Slideshow Karaoke', 'Oct 4 - 7:30 AM', 'Oct 4 - 8:00 AM'),
+  createData(<a href="#sponsor">Sponsor Expo</a>, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/85453750263">Bob Ross MS Paint</a>, 'Oct 3 - 7:00 PM', 'Oct 3 - 7:30 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/82537720542">Quiplash 2</a>, 'Oct 3 - 9:00 PM', 'Oct 3 - 10:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/88688046274">Kahoot Trivia</a>, 'Oct 3 - 10:00 PM', 'Oct 3 - 10:30 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/81208734229">Skribbl.io</a>, 'Oct 3 - 11:00 PM', 'Oct 4 - 12:00 AM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/82240319308">Lightning Talk</a>, 'Oct 4 - 12:30 AM', 'Oct 4 - 1:00 AM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/87621841102">Trivia Murder Party</a>, 'Oct 4 - 2:00 AM', 'Oct 4 - 3:00 AM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/82755416516">Website Contest</a>, 'Oct 4 - 4:30 AM', 'Oct 4 - 5:30 AM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/82431095983">Slideshow Karaoke</a>, 'Oct 4 - 7:30 AM', 'Oct 4 - 8:00 AM'),
   createData('Judging', 'Oct 4 - 12:00 PM', '--'),
-  createData('Closing Ceremony', 'Oct 4 - 7:00 PM', 'Oct 4 - 8:00 PM')
+  createData(<a target="_blank" href="https://www.youtube.com/watch?v=usTEFeAs-ZI">Closing Ceremony</a>, 'Oct 4 - 7:00 PM', 'Oct 4 - 8:00 PM')
 ];
 
 const sponsorRows = [
-  createData('Cincinnati Bell Technology Solutions', 'Oct 3 - 1:00 PM', 'Oct 3 - 2:00 PM'),
-  createData('Ohio Cyber Range Institute', 'Oct 3 - 1:00 PM', 'Oct 3 - 4:00 PM'),
-  createData('Brooksource', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData('Northrop Grumman', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData('Centauri', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData('Fidelity National Information Services Inc', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/79355490718?pwd=MHZwc2ptS2lzakYranZKeERNcDY4QT09">Cincinnati Bell Technology Solutions</a>/* 'Cincinnati Bell Technology Solutions' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 2:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/86065338418">Ohio Cyber Range Institute</a>/* 'Ohio Cyber Range Institute' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 4:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/81397342943">Brooksource</a>/* 'Brooksource' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/87011386771?pwd=ZmdQeXJhY0RRNnlpdkhnRHZ1dlRoZz09">Northrop Grumman</a>/* 'Northrop Grumman' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/84360987454">Centauri</a>/* 'Centauri' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
+  createData(<a target="_blank" href="https://us02web.zoom.us/j/81577914282">Fidelity National Information Services Inc</a>/* 'Fidelity National Information Services Inc' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData(<a target="_blank" href="https://meet.google.com/hmu-kgry-fkn">Google Cloud</a>, 'Oct 3 - 3:30 PM', 'Oct 3 - 4:30 PM')
 ];
 
 const workShopRows = [
-  createData(<a target="_blank" href="https://youtu.be/yril1SIxjq8">Capture The Flag with Ghidra By Northrop Grumman's Chris Morrison</a>, 'Oct 3 - 1:30 PM', 'Oct 3 - 2:00 PM'),
+  createData(<a name="sponsor" target="_blank" href="https://youtu.be/yril1SIxjq8">Capture The Flag with Ghidra By Northrop Grumman's Chris Morrison</a>, 'Oct 3 - 1:30 PM', 'Oct 3 - 2:00 PM'),
   createData(<a target="_blank" href="https://www.youtube.com/watch?v=2E0qVv4ycoo">Cloud Hero - BigQuery with Data & ML By Google's Ryan Matsumoto</a>, 'Oct 3 - 2:30 PM', 'Oct 3 - 3:00 PM'),
   createData(<a target="_blank" href="https://youtu.be/bqK8ikwOW10">Build Your Professional Brand By Brooksource's Nick Goliath</a>, 'Oct 3 - 3:30 PM', 'Oct 4 - 4:00 PM'),
   createData(<a target="_blank" href="https://youtu.be/KA_K_cp25jw">Security and Trust in Microelectronics By Centauri</a>, 'Oct 3 - 4:30 PM', 'Oct 4 - 5:00 PM'),

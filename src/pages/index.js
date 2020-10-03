@@ -32,7 +32,7 @@ export default () => {
         </button>
         <button><a target="_blank"
                    className="primary-button ma2"
-                   href="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Our Devpost</a>
+                   href="https://makeuc-2020.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Devpost</a>
         </button>
       </div>
       <section id="schedule" className="mt6">

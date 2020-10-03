@@ -24,13 +24,13 @@ function createData(name, start, end) {
 }
 
 const generalRows = [
-  createData('Check-In', 'Oct 3 - 10:00 AM', 'Oct 3 - 11:00 AM'),
-  createData('Keynote', 'Oct 3 - 11:00 AM', 'Oct 3 - 12:00 PM'),
+  createData('Check-In', 'Oct 3 - 10:00 AM', 'Oct 3 - 11:15 AM'),
+  createData(<a target="_blank" href="https://youtu.be/J8qIUGyic40">Opening Ceremony</a>, 'Oct 3 - 11:15 AM', 'Oct 3 - 12:00 PM'),
   createData('Hacking', 'Oct 3 - 12:00 PM', 'Oct 4 - 12:00 PM'),
-  createData('Team Formation', 'Oct 3 - 12:00 PM', 'Oct 3 - 12:30 PM'),
-  createData('Hackathon 101', 'Oct 3 - 12:30 PM', 'Oct 3 - 1:00 PM'),
+  createData(<a target="_blank" href="https://youtu.be/SZ7oMSRMEII">Team Formation</a>, 'Oct 3 - 12:00 PM', 'Oct 3 - 12:30 PM'),
+  createData(<a target="_blank" href="https://youtu.be/RgTrYToCHdY">Hackathon 101</a>, 'Oct 3 - 12:30 PM', 'Oct 3 - 1:00 PM'),
   createData('Sponsor Expo', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData('Bob Ross MS Paint', 'Oct 3 - 7:00 PM', 'Oct 3 - 7:30 PM'),
+  createData(<a target="_blank" href="https://youtu.be/8UYZ8KMAd1s">Bob Ross MS Paint</a>, 'Oct 3 - 7:00 PM', 'Oct 3 - 7:30 PM'),
   createData('Quiplash 2', 'Oct 3 - 9:00 PM', 'Oct 3 - 10:00 PM'),
   createData('Kahoot Trivia', 'Oct 3 - 10:00 PM', 'Oct 3 - 10:30 PM'),
   createData('Scribble.io', 'Oct 3 - 11:00 PM', 'Oct 4 - 12:00 AM'),
@@ -49,17 +49,17 @@ const sponsorRows = [
   createData('Northrop Grumman', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData('Centauri', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData('Fidelity National Information Services Inc', 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData('Google Cloud', 'Oct 3 - 3:30 PM', 'Oct 3 - 4:30 PM')
+  createData(<a target="_blank" href="https://meet.google.com/hmu-kgry-fkn">Google Cloud</a>, 'Oct 3 - 3:30 PM', 'Oct 3 - 4:30 PM')
 ];
 
 const workShopRows = [
-  createData('Capture The Flag with Ghidra By Northrop Grumman\'s Chris Morrison', 'Oct 3 - 1:30 PM', 'Oct 3 - 2:00 PM'),
-  createData('Cloud Hero - BigQuery with Data & ML By Google\'s Ryan Matsumoto', 'Oct 3 - 2:30 PM', 'Oct 3 - 3:00 PM'),
-  createData('Build Your Professional Brand By Brooksource\'s Nick Goliath', 'Oct 3 - 3:30 PM', 'Oct 4 - 4:00 PM'),
-  createData('Security and Trust in Microelectronics By Centauri', 'Oct 3 - 4:30 PM', 'Oct 4 - 5:00 PM'),
-  createData('Brand Storytelling By Microsoft\'s Miri Rodriguez', 'Oct 3 - 5:30 PM', 'Oct 3 - 6:00 PM'),
-  createData('Ohio Cyber Range Institute Cyber Games', 'Oct 3 - 6:30 PM', 'Oct 3 - 7:00 PM'),
-  createData('U.S. Air Force Capture The Flag Games By MLH\'s Neal', 'Oct 3 - 8:00 PM', 'Oct 3 - 9:00 PM')
+  createData(<a target="_blank" href="https://youtu.be/yril1SIxjq8">Capture The Flag with Ghidra By Northrop Grumman's Chris Morrison</a>, 'Oct 3 - 1:30 PM', 'Oct 3 - 2:00 PM'),
+  createData(<a target="_blank" href="https://www.youtube.com/watch?v=2E0qVv4ycoo">Cloud Hero - BigQuery with Data & ML By Google's Ryan Matsumoto</a>, 'Oct 3 - 2:30 PM', 'Oct 3 - 3:00 PM'),
+  createData(<a target="_blank" href="https://youtu.be/bqK8ikwOW10">Build Your Professional Brand By Brooksource's Nick Goliath</a>, 'Oct 3 - 3:30 PM', 'Oct 4 - 4:00 PM'),
+  createData(<a target="_blank" href="https://youtu.be/KA_K_cp25jw">Security and Trust in Microelectronics By Centauri</a>, 'Oct 3 - 4:30 PM', 'Oct 4 - 5:00 PM'),
+  createData(<a target="_blank" href="https://youtu.be/sUrceW7xrwM">Brand Storytelling By Microsoft's Miri Rodriguez</a>, 'Oct 3 - 5:30 PM', 'Oct 3 - 6:00 PM'),
+  createData(<a target="_blank" href="https://youtu.be/we9UWcUl9ls">Ohio Cyber Range Institute Cyber Games</a>, 'Oct 3 - 6:30 PM', 'Oct 3 - 7:00 PM'),
+  createData(<a target="_blank" href="https://youtu.be/KIWLeanWbVU">U.S. Air Force Capture The Flag Games By MLH's Neal</a>, 'Oct 3 - 8:00 PM', 'Oct 3 - 9:00 PM')
 ];
 
 export default function BasicTable() {

@@ -43,11 +43,9 @@ const generalRows = [
 ];
 
 const sponsorRows = [
-  createData(<a target="_blank" href="https://us02web.zoom.us/j/79355490718?pwd=MHZwc2ptS2lzakYranZKeERNcDY4QT09">Cincinnati Bell Technology Solutions</a>/* 'Cincinnati Bell Technology Solutions' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 2:00 PM'),
   createData(<a target="_blank" href="https://us02web.zoom.us/j/86065338418">Ohio Cyber Range Institute</a>/* 'Ohio Cyber Range Institute' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 4:00 PM'),
   createData(<a target="_blank" href="https://us02web.zoom.us/j/81397342943">Brooksource</a>/* 'Brooksource' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData(<a target="_blank" href="https://us02web.zoom.us/j/87011386771?pwd=ZmdQeXJhY0RRNnlpdkhnRHZ1dlRoZz09">Northrop Grumman</a>/* 'Northrop Grumman' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
-  createData(<a target="_blank" href="https://us02web.zoom.us/j/84360987454">Centauri</a>/* 'Centauri' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData(<a target="_blank" href="https://us02web.zoom.us/j/81577914282">Fidelity National Information Services Inc</a>/* 'Fidelity National Information Services Inc' */, 'Oct 3 - 1:00 PM', 'Oct 3 - 6:00 PM'),
   createData(<a target="_blank" href="https://meet.google.com/hmu-kgry-fkn">Google Cloud</a>, 'Oct 3 - 3:30 PM', 'Oct 3 - 4:30 PM')
 ];

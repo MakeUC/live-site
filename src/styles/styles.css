@@ -1,8 +1,9 @@
 main {
   background-color: black;
-  background-image: url('./background.png');
+  background-image: url('./jank-background.png');
   background-attachment: fixed;
   color: theme('colors.white');
+  font-family: 'Press Start 2P';
 }
 
 .navbar {

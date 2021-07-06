@@ -33,9 +33,9 @@ const Header = ({ page = `index` } = {}) => {
       <div className="container flex flex-col sm:flex-row items-center justify-between max-w-full px-8 py-2">
         <Link to="/">
           <div className="flex items-center text-2xl">
-            <div className="w-12 md:ml-24 lg:ml-32">
+            {/*<div className="w-12 md:ml-24 lg:ml-32">*/}
               <LogoIcon />
-            </div>
+            {/*</div>*/}
           </div>
         </Link>
         {page === `index` && (
@@ -52,7 +52,7 @@ const Header = ({ page = `index` } = {}) => {
           </div>
         )}
       </div>
-      <a
+      {/*<a
         id="mlh-trust-badge"
         style={{
           display: `block`,
@@ -71,7 +71,7 @@ const Header = ({ page = `index` } = {}) => {
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2021/mlh-trust-badge-2021-white.svg"
           alt="Major League Hacking 2021 Hackathon Season"
         />
-      </a>
+      </a>*/}
     </header>
   );
 };

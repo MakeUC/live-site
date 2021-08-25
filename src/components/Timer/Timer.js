@@ -3,8 +3,8 @@ import './Timer.scss';
 import '../../styles/_variables.scss';
 import '../../styles/_font.scss';
 
-const startTime = new Date(`2020-10-03T16:00:00+00:00`);
-const endTime = new Date(`2020-10-04T16:00:00+00:00`);
+const startTime = new Date(`2021-10-09T12:00:00+00:00`);
+const endTime = new Date(`2021-10-11T11:59:00+00:00`);
 
 const msToTime = ms => {
   let seconds = Math.floor((ms / 1000) % 60),
@@ -18,10 +18,14 @@ const msToTime = ms => {
 
   if(days > 0) {
     days = (days < 10 && days > 0) ? `0` + days : days;
+    return `${days}:${hours}:${minutes}`;//:${seconds}`;
+  }
+  
+  if(hours <= 1){
     return `${days}:${hours}:${minutes}:${seconds}`;
   }
 
-  return `${hours}:${minutes}:${seconds}`;
+  return `${hours}:${minutes}`;//:${seconds}`;
 };
 
 const getETA = clearTick => {
@@ -54,7 +58,7 @@ const Timer = () => {
   }, []);
 
   return <>
-    <h2 className="f-subheadline-ns f2 b lh-solid index-countdown tc timer-letter-spacing" style={{fontSize: '40px'}}>
+    <h2 className="f-subheadline-ns f2 b lh-solid font-merriweather index-countdown tc timer-letter-spacing">
       {eta || `Hacking has ended!`}
     </h2>
     <h1 className="index-countdown f3 font-opensans">

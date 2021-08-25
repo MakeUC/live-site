@@ -1,35 +1,39 @@
 ---
+
 - Id: 0
-  Subject: Check-in Begins
-  StartTime: '2020-10-03T14:00:00.000Z'
-  EndTime: '2020-10-03T15:00:00.000Z'
-  Description: 'add description'
-  CategoryColor: '#00f'
+  Subject: Stay tuned for updates!
 
-- Id: 1
-  Subject: Keynote
-  StartTime: '2020-10-03T15:00:00.000Z'
-  EndTime: '2020-10-03T16:00:00.000Z'
-  Description: 'add description'
-  CategoryColor: '#00f'
+# - Id: 0
+#   Subject: Check-in Begins
+#   StartTime: '2020-10-03T14:00:00.000Z'
+#   EndTime: '2020-10-03T15:00:00.000Z'
+#   Description: 'add description'
+#   CategoryColor: '#00f'
 
-- Id: 2
-  Subject: Hacking
-  StartTime: '2020-10-03T16:00:00.000Z'
-  EndTime: '2020-10-04T16:00:00.000Z'
-  Description: 'add description'
-  CategoryColor: '#f00'
+# - Id: 1
+#   Subject: Keynote
+#   StartTime: '2020-10-03T15:00:00.000Z'
+#   EndTime: '2020-10-03T16:00:00.000Z'
+#   Description: 'add description'
+#   CategoryColor: '#00f'
 
-- Id: 3
-  Subject: Sponsor Expo
-  StartTime: '2020-10-03T17:00:00.000Z'
-  EndTime: '2020-10-03T22:00:00.000Z'
-  Description: 'add description'
-  CategoryColor: '#090'
+# - Id: 2
+#   Subject: Hacking
+#   StartTime: '2020-10-03T16:00:00.000Z'
+#   EndTime: '2020-10-04T16:00:00.000Z'
+#   Description: 'add description'
+#   CategoryColor: '#f00'
 
-- Id: 4
-  Subject: Judging
-  StartTime: '2020-10-04T16:00:00.000Z'
-  EndTime: '2020-10-04T18:00:00.000Z'
-  Description: 'add description'
-  CategoryColor: '#00f'
+# - Id: 3
+#   Subject: Sponsor Expo
+#   StartTime: '2020-10-03T17:00:00.000Z'
+#   EndTime: '2020-10-03T22:00:00.000Z'
+#   Description: 'add description'
+#   CategoryColor: '#090'
+
+# - Id: 4
+#   Subject: Judging
+#   StartTime: '2020-10-04T16:00:00.000Z'
+#   EndTime: '2020-10-04T18:00:00.000Z'
+#   Description: 'add description'
+#   CategoryColor: '#00f'

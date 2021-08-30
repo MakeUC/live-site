@@ -28,17 +28,17 @@ export default () => {
       <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt5">
         <button><a target="_blank"
                    className="primary-button ma2 nes-btn"
-                   href="https://join.slack.com/t/makeuc-2020/shared_invite/zt-hs1ev57m-WmnWjiwgCMy87mZDmcIS4A">Join ?? [[Pranav change to dcord or smthn]]</a>
+                   href="https://discord.gg/GxDrb7n3ZR">DISCORD</a>
         </button>
         <button><a target="_blank"
                    className="primary-button ma2 nes-btn"
-                   href="https://makeuc-2021.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=discover">Devpost [[do we have one]]</a>
+                   href="https://makeuc-2020.devpost.com/">DEVPOST</a>
         </button>
       </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">
           <h2 className="text-3xl lg:text-5xl title font-semibold">Schedule</h2>
-          <div className="">
+          <div className=""> {/*style={{backgroundColor: "#ffffff"}}>*/}
             <Schedule />
           </div>
         </div>

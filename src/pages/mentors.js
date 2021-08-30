@@ -14,17 +14,25 @@ export default () => {
             Mentors
           </h2>
         </div>
-        <div className="container mx-auto sm:px-4 lg:px-8 text-center flex flex-wrap items-center justify-center">
-          {/* Good version */}
-          {/* {mentorData.map((mentor, i) =>
-            <MentorCard
-              key={mentor.name}
-              name={mentor.name}
-              className=""
-              slack={mentor.slack}
-              speciality={mentor.speciality}
-            />
-          )} */}
+        <h1 className="text-center">COMING SOON!</h1>
+        {/* my only hope is that this code is so bad I'm never allowed to write ReactJS again and I can go back to data science in peace */}
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        {/*<div className="container mx-auto sm:px-4 lg:px-8 text-center flex flex-wrap items-center justify-center">
           <MentorCard name={"Alfonso Portillo"}
             className=""
             slack={"[Google Cloud] alfporti"}
@@ -150,7 +158,7 @@ export default () => {
             slack={"pending"}
             speciality={"SQL, Python"}
           />
-        </div>
+        </div>*/}
       </section>
     </Layout>
   );

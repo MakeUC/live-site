@@ -38,15 +38,18 @@ const Header = ({ page = `index` } = {}) => {
         </Link>
         {page === `index` && (
           <div className="flex mt-3 sm:mt-0">
-            <Link className="px-4 lg:px-10 nav-link" to="/">
+            <Link className="px-4 lg:px-10 nav-link mt-4" to="/">
               Home
             </Link>
-            <Link className="px-4 lg:px-10 nav-link" to="/mentors">
+            <Link className="px-4 lg:px-10 nav-link mt-4" to="/mentors">
               Mentors
             </Link>
-            <Link className="px-4 lg:px-10 nav-link" to="/resources">
+            <Link className="px-4 lg:px-10 nav-link mt-4" to="/resources">
               Resources
             </Link>
+            <Link to="https://www.gather.town/">
+              <Button className="text-sm font-bold nes-btn">SPONSOR EXPO</Button>
+            </Link> 
           </div>
         )}
       </div>

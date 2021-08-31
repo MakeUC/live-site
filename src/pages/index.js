@@ -34,6 +34,10 @@ export default () => {
                    className="primary-button ma2 nes-btn"
                    href="https://makeuc-2020.devpost.com/">DEVPOST</a>
         </button>
+        {/*<button><a target="_blank"
+                  className="primary-button ma2 nes-btn"
+                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">SPONSOR EXPO</a>
+  </button>*/}
       </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">

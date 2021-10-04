@@ -32,7 +32,7 @@ export default () => {
         </button>
         <button><a target="_blank"
                    className="primary-button ma2 nes-btn"
-                   href="https://makeuc-2020.devpost.com/">DEVPOST</a>
+                   href="https://makeuc-2021.devpost.com/">DEVPOST</a>
         </button>
         {/*<button><a target="_blank"
                   className="primary-button ma2 nes-btn"

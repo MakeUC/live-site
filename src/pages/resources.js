@@ -490,22 +490,27 @@ export default () => {
             Sponsor Resources
           </h2>
         </div>
-        <div className="container mx-auto mt-10">
-          <Card className="bg-purply-white text-black">
-          {
-            sponsorResources.map(resource => {
-              return <Accordion
-                key={resource.name}
-                title={resource.name}
-                content={resource.details}
-              />;
-            })
-          }
-          </Card>
-        </div>
+        <h1 className="text-center">COMING SOON!</h1>
 
+        {/* my only hope is that this code is so bad I'm never allowed to write ReactJS again and I can go back to data science in peace */}
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
-        <div className="container mx-auto mt-10">
+        {/*<div className="container mx-auto mt-10">
           <h2 className="text-3xl lg:text-5xl title font-semibold">
             Other Resources
           </h2>
@@ -522,7 +527,7 @@ export default () => {
               })
             }
           </Card>
-        </div>
+          </div>*/}
       </section>
     </Layout>
   );

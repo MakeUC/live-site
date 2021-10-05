@@ -31,7 +31,7 @@ const generalRows = [
   createData("Sponsor Expo", "Oct 9 - 12:00 PM", "Oct 9 - 2:00 PM"),
   createData("Hackathon 101", "Oct 9 - 12:30 PM", "Oct 9 - 1:00 PM"),
   createData("Team Formation", "Oct 9 - 1:00 PM", "Oct 9 - 1:30 PM"),
-  createData("Dinner (In-Person)", "Oct 9 - 06:00 PM", "Oct 9 - 07:00 PM"),
+  createData("Dinner (In-Person)", "Oct 9 - 6:00 PM", "Oct 9 - 7:00 PM"),
   createData("U.S. Air Force Cybersecurity", "Oct 9 - 7:00 PM", "Oct 9 - 8:00 PM"),
   createData("Garlic Phone", "Oct 9 - 9:00 PM", "Oct 9 - 10:00 PM"),
   createData("Networking Hour", "Oct 9 - 11:00 PM", "Oct 10 - 12:00 AM"),

@@ -28,7 +28,7 @@ export default () => {
       <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt5">
         <button><a target="_blank"
                    className="primary-button ma2 nes-btn"
-                   href="https://discord.gg/GxDrb7n3ZR">DISCORD</a>
+                   href="https://discord.gg/makeuc">DISCORD</a>
         </button>
         <button><a target="_blank"
                    className="primary-button ma2 nes-btn"

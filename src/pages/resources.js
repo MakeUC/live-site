@@ -25,210 +25,210 @@ const sponsorResources = [
       <br></br>
       <br></br>
     </p>
-  )),
-  createResource('MLH',
-  (
-    <p className="text-left">
-      <strong>Hacker Cheat Sheet</strong>
-      <br></br>
-      <br></br>
-      <a target="_blank" href="https://hack.mlh.io/">hack.mlh.io</a>
-      <br></br>
-      <br></br>
-      <strong>MLH Software Lab</strong>
-      <br></br>
-      <br></br>
-      <a target="_blank" href="https://hack.mlh.io/software/">hack.mlh.io/software</a>
-      <br></br>
-      <br></br>
-      <strong>Learn (Powered By GitHub)</strong>
-      <br></br>
-      <br></br>
-      <a target="_blank" href="https://hack.mlh.io/learn/">hack.mlh.io/learn</a>
-      <br></br>
-    </p>
-  )),
-  createResource('Wolfram Research',
-  (
-    <p className="text-left">
-    <strong>Wolfram API</strong>
-    <br></br>
-    <br></br>
-    <strong>Redeem here.</strong>
-    <br></br>
-    <br></br>
-    <a target="_blank"
-        href="https://account.wolfram.com/redeem/MakeUC1020">account.wolfram.com/redeem/MakeUC1020</a>
-    <br></br>
-    <br></br>
-    The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
-    don't already have
-    a Wolfram ID, you'll be prompted to create one using an active email address. Once logged in, you
-    will see in the Downloads section which platforms of the software you have access to, with their accompanying
-    activation keys.
-    <br></br>
-    <br></br>
-    Please download the desktop version to your machine, boot up the application and use the associated
-    activation key
-    when prompted. This will grant you full access for 30 days from your activation date.
-    <br></br>
-    <br></br>
-    When you access Wolfram|One in the cloud for the first time, you can create a new notebook or load a
-    pre-made
-    Things to Try live notebook, which is designed to guide you through neat things you can immediately
-    compute.
-    <br></br>
-    <br></br>
-    You can use Wolfram|One to create instant web apps and APIs, or to deploy to mobile. The Wolfram
-    Language is also
-    bundled on the Raspberry Pi, where you can connect directly to hardware, including Arduino etc.
-    <br></br>
-    <br></br>
-    The fastest way to get an API up and running is detailed in the extensive Documentation Center
-    available to you
-    alongside your notebook: simply click the section in the documentation labeled Cloud and Deployment
-    and select
-    Instant APIs to access a handy how-to guide to help get you started.
-    <br></br>
-    <br></br>
-    To view your account details-- including your available Cloud Credits and Cloud storage-- or
-    re-download Wolfram|One,
-    visit the following page:
-    <br></br>
-    <br></br>
-    <a target="_blank"
-        href="https://account.wolfram.com/products">account.wolfram.com/products</a>
-    <br></br>
-    <br></br>
-    Wolfram|One is the world's first fully integrated cloud-desktop hybrid, integrated computation
-    platform.
-    The core of our technology stack is the Wolfram Language, which builds on three decades of
-    development, and
-    represents a new direction in programming-- that happens to be absolutely ideal for hackathons.
-    <br></br>
-    <br></br>
-    <strong>Careers</strong>
-    <br></br>
-    <br></br>
-    Wolfram Summer Programs has offerings for exceptional teens in high school as well as undergrads
-    through post-docs. 
-    <br></br>
-    <br></br>
-    These programs are for those interested in programming, computational thinking, machine
-    learning, and innovative tech. Students create and complete a unique project to publish 
-    during the program. 
-    <br></br>
-    <br></br>
-    To sign up for 2021 registration announcements visit:
-    <br></br>
-    <br></br>
-    <a target="_blank"
-        href="https://education.wolfram.com/summer/">education.wolfram.com/summer</a>
-    <br></br>
-    <br></br>
-    Interested in Wolfram mentorships or internships? Check out our opportunities here:
-    <br></br>
-    <br></br>
-    <a target="_blank"
-        href="https://www.wolfram.com/company/careers">wolfram.com/company/careers</a>
-    <br></br>
-    <br></br>
-    Good luck, and happy hacking!
-    <br></br>
-  </p>
-  )),
-  createResource('Google Cloud', (
-    <p className="text-left">
-      <strong>Google Cloud Credits</strong>
-      <br></br>
-      <br></br>
-      $25 of Google Cloud credits will be shared with MakeUC hackers on or earlier than October 3rd.
-      <br></br>
-      <br></br>
-      <strong>Intro to Firebase (Available at 3:30 PM EDT on Oct 3rd)</strong>
-      <br></br>
-      <br></br>
-      Firebase is Google’s mobile application development platform that helps you build, improve, and grow your app.
-      Andrea Wu, a Software Engineer at Google, will be sharing an exclusive talk with all MakeUC hackers on Slack.
-      <br></br>
-    </p>)),
-    createResource('Twilio', (
-      <p className="text-left">
-        <strong>Twilio Credits</strong>
-        <br></br>
-        <br></br>
-        $30 of Twilio credits will be with MakeUC hackers on or earlier than October 3rd.
-        <br></br>
-      </p>)),
-    createResource('DigitalOcean', (
-      <p className="text-left">
-        <strong>$100, 60-day Free Access to DO Developer Cloud</strong>
-        <br></br>
-        <br></br>
-        <a target="_blank" href="https://try.digitalocean.com/developer-cloud">try.digitalocean.com/developer-cloud</a>  
-        <br></br>
-      </p>)),
-  createResource('Balsamiq',
-    (
-      <p className="text-left">
-        Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of
-        sketching on
-        a notepad or whiteboard, but using a computer. Read more here on&nbsp;
-        <a href="https://balsamiq.com/learn/articles/what-are-wireframes/" target="_blank">What are
-          Wireframes?</a>
-        <br></br>
-        <br></br>
-        It really forces you to focus on structure and content, avoiding lengthy discussions about colors
-        and details
-        that should come later in the process.
-        <br></br>
-        <br></br>
-        Wireframes is FAST: you will generate more ideas, so you can throw out the bad ones and discover the
-        best solutions.
-        <br></br>
-        <br></br>
-        <strong>Product:</strong> <a target="_blank" href="https://balsamiq.cloud/">Balsamiq Cloud</a>
-        <br></br>
-        <strong>Promo Code:</strong> BQUNYNWME100221
-        <br></br>
-        <strong>Code Expiration:</strong> February 01, 2021
-        <br></br>
-        <br></br>
-        <a target="_blank" href="https://support.balsamiq.com/sales/cloudpromo/">Instructions for Promo Code
-          Redemption</a>
-        <br></br>
-      </p>
-    )),
-    createResource('Linode',
-    (
-      <p className="text-left">
-        <strong>Getting Started</strong>
-        <br></br>
-        <br></br>
-        Head to <a target="_blank" href="https://linode.com/">linode.com</a> and use code 
-        <a target="_blank" href="https://login.linode.com/signup?promo=Hack20"> HACK20 </a> 
-        to get $20 towards your first project in the alternative cloud. 
-        Not sure where to get started? <a target="_blank" href="https://www.linode.com/docs/getting-started/">Read our Getting Started Guide</a>.
-        <br></br>
-        <br></br>
-        <strong>Free Swag</strong>
-        <br></br>
-        <br></br>
-        We hope you’re excited to get hacking right from the comfort of your own couch! 
-        <br></br><br></br>
-        Even if we can’t get together 
-        to create and code during an in-person hackathon, Linode wants to maintain some normalcy during this crazy time 
-        by offering <strong>free swag</strong> that ships straight to your front door. If interested, the link will be 
-        shared in the Opening Ceremony on October 3rd.
-        <br></br>
-        <br></br>
-        <strong>Customer Support Team</strong>
-        <br></br>
-        <br></br>
-        <a target="_blank" href="https://www.linode.com/support/">linode.com/support</a>
-        <br></br>
-      </p>
-    ))
+  ))
+  // createResource('MLH',
+  // (
+  //   <p className="text-left">
+  //     <strong>Hacker Cheat Sheet</strong>
+  //     <br></br>
+  //     <br></br>
+  //     <a target="_blank" href="https://hack.mlh.io/">hack.mlh.io</a>
+  //     <br></br>
+  //     <br></br>
+  //     <strong>MLH Software Lab</strong>
+  //     <br></br>
+  //     <br></br>
+  //     <a target="_blank" href="https://hack.mlh.io/software/">hack.mlh.io/software</a>
+  //     <br></br>
+  //     <br></br>
+  //     <strong>Learn (Powered By GitHub)</strong>
+  //     <br></br>
+  //     <br></br>
+  //     <a target="_blank" href="https://hack.mlh.io/learn/">hack.mlh.io/learn</a>
+  //     <br></br>
+  //   </p>
+  // )),
+  // createResource('Wolfram Research',
+  // (
+  //   <p className="text-left">
+  //   <strong>Wolfram API</strong>
+  //   <br></br>
+  //   <br></br>
+  //   <strong>Redeem here.</strong>
+  //   <br></br>
+  //   <br></br>
+  //   <a target="_blank"
+  //       href="https://account.wolfram.com/redeem/MakeUC1020">account.wolfram.com/redeem/MakeUC1020</a>
+  //   <br></br>
+  //   <br></br>
+  //   The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
+  //   don't already have
+  //   a Wolfram ID, you'll be prompted to create one using an active email address. Once logged in, you
+  //   will see in the Downloads section which platforms of the software you have access to, with their accompanying
+  //   activation keys.
+  //   <br></br>
+  //   <br></br>
+  //   Please download the desktop version to your machine, boot up the application and use the associated
+  //   activation key
+  //   when prompted. This will grant you full access for 30 days from your activation date.
+  //   <br></br>
+  //   <br></br>
+  //   When you access Wolfram|One in the cloud for the first time, you can create a new notebook or load a
+  //   pre-made
+  //   Things to Try live notebook, which is designed to guide you through neat things you can immediately
+  //   compute.
+  //   <br></br>
+  //   <br></br>
+  //   You can use Wolfram|One to create instant web apps and APIs, or to deploy to mobile. The Wolfram
+  //   Language is also
+  //   bundled on the Raspberry Pi, where you can connect directly to hardware, including Arduino etc.
+  //   <br></br>
+  //   <br></br>
+  //   The fastest way to get an API up and running is detailed in the extensive Documentation Center
+  //   available to you
+  //   alongside your notebook: simply click the section in the documentation labeled Cloud and Deployment
+  //   and select
+  //   Instant APIs to access a handy how-to guide to help get you started.
+  //   <br></br>
+  //   <br></br>
+  //   To view your account details-- including your available Cloud Credits and Cloud storage-- or
+  //   re-download Wolfram|One,
+  //   visit the following page:
+  //   <br></br>
+  //   <br></br>
+  //   <a target="_blank"
+  //       href="https://account.wolfram.com/products">account.wolfram.com/products</a>
+  //   <br></br>
+  //   <br></br>
+  //   Wolfram|One is the world's first fully integrated cloud-desktop hybrid, integrated computation
+  //   platform.
+  //   The core of our technology stack is the Wolfram Language, which builds on three decades of
+  //   development, and
+  //   represents a new direction in programming-- that happens to be absolutely ideal for hackathons.
+  //   <br></br>
+  //   <br></br>
+  //   <strong>Careers</strong>
+  //   <br></br>
+  //   <br></br>
+  //   Wolfram Summer Programs has offerings for exceptional teens in high school as well as undergrads
+  //   through post-docs. 
+  //   <br></br>
+  //   <br></br>
+  //   These programs are for those interested in programming, computational thinking, machine
+  //   learning, and innovative tech. Students create and complete a unique project to publish 
+  //   during the program. 
+  //   <br></br>
+  //   <br></br>
+  //   To sign up for 2021 registration announcements visit:
+  //   <br></br>
+  //   <br></br>
+  //   <a target="_blank"
+  //       href="https://education.wolfram.com/summer/">education.wolfram.com/summer</a>
+  //   <br></br>
+  //   <br></br>
+  //   Interested in Wolfram mentorships or internships? Check out our opportunities here:
+  //   <br></br>
+  //   <br></br>
+  //   <a target="_blank"
+  //       href="https://www.wolfram.com/company/careers">wolfram.com/company/careers</a>
+  //   <br></br>
+  //   <br></br>
+  //   Good luck, and happy hacking!
+  //   <br></br>
+  // </p>
+  // )),
+  // createResource('Google Cloud', (
+  //   <p className="text-left">
+  //     <strong>Google Cloud Credits</strong>
+  //     <br></br>
+  //     <br></br>
+  //     $25 of Google Cloud credits will be shared with MakeUC hackers on or earlier than October 3rd.
+  //     <br></br>
+  //     <br></br>
+  //     <strong>Intro to Firebase (Available at 3:30 PM EDT on Oct 3rd)</strong>
+  //     <br></br>
+  //     <br></br>
+  //     Firebase is Google’s mobile application development platform that helps you build, improve, and grow your app.
+  //     Andrea Wu, a Software Engineer at Google, will be sharing an exclusive talk with all MakeUC hackers on Slack.
+  //     <br></br>
+  //   </p>)),
+  //   createResource('Twilio', (
+  //     <p className="text-left">
+  //       <strong>Twilio Credits</strong>
+  //       <br></br>
+  //       <br></br>
+  //       $30 of Twilio credits will be with MakeUC hackers on or earlier than October 3rd.
+  //       <br></br>
+  //     </p>)),
+  //   createResource('DigitalOcean', (
+  //     <p className="text-left">
+  //       <strong>$100, 60-day Free Access to DO Developer Cloud</strong>
+  //       <br></br>
+  //       <br></br>
+  //       <a target="_blank" href="https://try.digitalocean.com/developer-cloud">try.digitalocean.com/developer-cloud</a>  
+  //       <br></br>
+  //     </p>)),
+  // createResource('Balsamiq',
+  //   (
+  //     <p className="text-left">
+  //       Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of
+  //       sketching on
+  //       a notepad or whiteboard, but using a computer. Read more here on&nbsp;
+  //       <a href="https://balsamiq.com/learn/articles/what-are-wireframes/" target="_blank">What are
+  //         Wireframes?</a>
+  //       <br></br>
+  //       <br></br>
+  //       It really forces you to focus on structure and content, avoiding lengthy discussions about colors
+  //       and details
+  //       that should come later in the process.
+  //       <br></br>
+  //       <br></br>
+  //       Wireframes is FAST: you will generate more ideas, so you can throw out the bad ones and discover the
+  //       best solutions.
+  //       <br></br>
+  //       <br></br>
+  //       <strong>Product:</strong> <a target="_blank" href="https://balsamiq.cloud/">Balsamiq Cloud</a>
+  //       <br></br>
+  //       <strong>Promo Code:</strong> BQUNYNWME100221
+  //       <br></br>
+  //       <strong>Code Expiration:</strong> February 01, 2021
+  //       <br></br>
+  //       <br></br>
+  //       <a target="_blank" href="https://support.balsamiq.com/sales/cloudpromo/">Instructions for Promo Code
+  //         Redemption</a>
+  //       <br></br>
+  //     </p>
+  //   )),
+  //   createResource('Linode',
+  //   (
+  //     <p className="text-left">
+  //       <strong>Getting Started</strong>
+  //       <br></br>
+  //       <br></br>
+  //       Head to <a target="_blank" href="https://linode.com/">linode.com</a> and use code 
+  //       <a target="_blank" href="https://login.linode.com/signup?promo=Hack20"> HACK20 </a> 
+  //       to get $20 towards your first project in the alternative cloud. 
+  //       Not sure where to get started? <a target="_blank" href="https://www.linode.com/docs/getting-started/">Read our Getting Started Guide</a>.
+  //       <br></br>
+  //       <br></br>
+  //       <strong>Free Swag</strong>
+  //       <br></br>
+  //       <br></br>
+  //       We hope you’re excited to get hacking right from the comfort of your own couch! 
+  //       <br></br><br></br>
+  //       Even if we can’t get together 
+  //       to create and code during an in-person hackathon, Linode wants to maintain some normalcy during this crazy time 
+  //       by offering <strong>free swag</strong> that ships straight to your front door. If interested, the link will be 
+  //       shared in the Opening Ceremony on October 3rd.
+  //       <br></br>
+  //       <br></br>
+  //       <strong>Customer Support Team</strong>
+  //       <br></br>
+  //       <br></br>
+  //       <a target="_blank" href="https://www.linode.com/support/">linode.com/support</a>
+  //       <br></br>
+  //     </p>
+  //   ))
 ];
 const freeResources = [
   createResource('Starter Kits', (

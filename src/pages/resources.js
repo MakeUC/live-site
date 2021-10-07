@@ -9,6 +9,23 @@ function createResource(name, details) {
 }
 
 const sponsorResources = [
+  createResource('Amazon Web Services',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <a target="_blank" href="https://www.youtube.com/watch?v=a9__D53WsUs">What is AWS? Video Workshop</a>
+      <br></br>
+      <br></br>
+      <a target="_blank" href="https://www.youtube.com/watch?v=iHX-jtKIVNA">Amazon EC2 Basics & Instances Workshops</a>
+      <br></br>
+      <br></br>
+      <a target="_blank" href="https://www.youtube.com/watch?v=e6w9LwZJFIA">Getting Started with S3</a>
+      <br></br>
+      <br></br>
+      <a target="_blank" href="https://www.youtube.com/watch?v=1aY2KJldLz0">How to Choose Database on AWS</a>
+      <br></br>
+      <br></br>
+    </p>
+  )),
   createResource('MLH',
   (
     <p className="text-left">
@@ -211,52 +228,6 @@ const sponsorResources = [
         <a target="_blank" href="https://www.linode.com/support/">linode.com/support</a>
         <br></br>
       </p>
-    )),
-  createResource('EchoAR',
-    (
-      <p className="text-left">
-        EchoAR is redefining how people create augmented reality (AR) and virtual reality (VR) experiences.
-        <br></br>
-        <br></br>
-        We make it simple for developers and content creators to build, manage and deploy 3D applications
-        and content with our flexible cloud infrastructure, intuitive content management system, fast
-        content
-        delivery network, and other best-in-class tools.
-        With a killer team of AR industry experts and pioneers, we focus on providing the easiest way
-        for XR-enthusiasts (just like us!) to scale up their 3D applications and immersive content.
-        <br></br>
-        <br></br>
-        <strong>Sign up</strong>
-        <br></br>
-        <br></br>
-        <a target="_target" href="https://console.echoar.xyz/#/auth/register-hackathon?code=MakeUC">console.echoar.xyz/#/auth/register-hackathon?code=MakeUC</a>
-        <br></br>
-        <br></br>
-        <strong>Documentation</strong>
-        <br></br>
-        <br></br>
-        <a target="_target" href="https://docs.echoar.xyz/">docs.echoar.xyz</a>
-        <br></br>
-        <br></br>
-        <strong>echoAR on GitHub</strong>
-        <br></br>
-        <br></br>
-        <a target="_target" href="https://github.com/echoARxyz">github.com/echoARxyz</a>
-        <br></br>
-        <br></br>
-        <strong>Build a Cloud Connected AR/VR App</strong>
-        <br></br>
-        <br></br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WlstP0i2GnQ" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br></br>
-        The workshop will show how to quickly create AR/VR apps with 
-        no technical skills or coding required and scale existing apps by connecting them to the cloud. Workshop 
-        participants will learn how to create real-time cloud-connected AR/VR apps using echoAR. 
-        Participants are encouraged to bring a laptop and a smartphone, or just follow along the live demonstration. 
-        Platforms for experimentation include: Google ARCore, WebXR, Vuforia, Unity-based apps, and more. 
-        <br></br>
-      </p>
     ))
 ];
 const freeResources = [
@@ -269,7 +240,7 @@ const freeResources = [
       <br></br>
       <div className="flex mb-4">
         <div className="w-1/2">
-          <ul className="ml-4" style={{ listStyleType: 'disc' }}>
+          <ul className="ml-4 pr-4" style={{ listStyleType: 'disc', fontSize: "14px"}}>
             <li><a target="_blank"
                    href="https://github.com/danistefanovic/build-your-own-x#build-your-own-3d-renderer">3D
               Renderer</a></li>
@@ -281,7 +252,7 @@ const freeResources = [
               Client</a></li>
             <li><a target="_blank"
                    href="https://github.com/danistefanovic/build-your-own-x#build-your-own-blockchain--cryptocurrency">Blockchain
-              / Cryptocurrency</a></li>
+              / Crypto</a></li>
             <li><a target="_blank"
                    href="https://github.com/danistefanovic/build-your-own-x#build-your-own-bot">Bot</a>
             </li>
@@ -299,9 +270,9 @@ const freeResources = [
               / Virtual Machine</a></li>
             <li><a target="_blank"
                    href="https://github.com/danistefanovic/build-your-own-x#build-your-own-front-end-framework--library">Front-end
-              Framework / Library</a></li>
+              Library</a></li>
             <li><a target="_blank"
-                   href="https://github.com/danistefanovic/build-your-own-x#build-your-own-game">Game</a>
+                   href="https://github.com/danistefanovic/build-your-own-x#build-your-own-game">Game Dev</a>
             </li>
             <li><a target="_blank"
                    href="https://github.com/danistefanovic/build-your-own-x#build-your-own-git">Git</a>
@@ -315,7 +286,7 @@ const freeResources = [
           </ul>
         </div>
         <div className="w-1/2">
-          <ul className="ml-4" style={{ listStyleType: 'disc' }}>
+          <ul className="ml-4 pl-4" style={{ listStyleType: 'disc', fontSize: "14px" }}>
             <li><a target="_blank"
                    href="https://github.com/danistefanovic/build-your-own-x#build-your-own-operating-system">Operating
               System</a></li>
@@ -364,45 +335,49 @@ const freeResources = [
       </strong>
       <br></br>
       <br></br>
+      <div fontSize={{fontSize: "16px"}}>
       Resource Link:&nbsp;
-      <a target="_blank"
-         href="https://github.com/sahat/hackathon-starter">github.com/sahat/hackathon-starter</a>
+        <a target="_blank"
+          href="https://github.com/sahat/hackathon-starter">github.com/sahat/hackathon-starter</a>
+        <br></br>
+        Live Demo:&nbsp;
+        <a target="_blank"
+          href="https://hackathon-starter.walcony.com/">hackathon-starter.walcony.com</a>
+      </div>
       <br></br>
-      Live Demo:&nbsp;
-      <a target="_blank"
-         href="https://hackathon-starter.walcony.com/">hackathon-starter.walcony.com</a>
-      <br></br>
-      <br></br>
-      If you have attended any hackathons in the past, then you know how much time it takes to get a
-      project started:
-      decide on what to build, pick a programming language, pick a web framework, pick a styling framework. A
-      while later,
-      you might have an initial project up on GitHub and only then can other team members start
-      contributing.
-      <br></br>
-      <br></br>
-      The primary focus is on simplicity and ease of use. The owner of this project also tried to make it
-      as generic and reusable
-      as possible to cover most use cases of hackathon web apps, without being too specific.
+      <div style={{ fontSize: "14px" }}>
+        If you have attended any hackathons in the past, then you know how much time it takes to get a
+        project started:
+        decide on what to build, pick a programming language, pick a web framework, pick a styling framework. A
+        while later,
+        you might have an initial project up on GitHub and only then can other team members start
+        contributing.
+        <br></br>
+        <br></br>
+        The primary focus is on simplicity and ease of use. The owner of this project also tried to make it
+        as generic and reusable
+        as possible to cover most use cases of hackathon web apps, without being too specific.
+      </div>
     </p>
   )),
   createResource('MOOC Platforms',
     (
       <p className="text-left">
-        A massive open online course (MOOC) is an online course aimed at unlimited participation and open
-        access via the web.
-        In addition to traditional course materials, such as filmed lectures, readings, and problem sets,
-        many MOOCs provide
-        interactive courses with user forums or social media discussions to support community interactions
-        among students,
-        professors, and teaching assistants (TAs), as well as immediate feedback to quick quizzes and
-        assignments.
+        <div style={{ fontSize: "16px" }}>
+          A massive open online course (MOOC) is an online course aimed at unlimited participation and open
+          access via the web.
+          In addition to traditional course materials, such as filmed lectures, readings, and problem sets,
+          many MOOCs provide
+          interactive courses with user forums or social media discussions to support community interactions
+          among students,
+          professors, and teaching assistants (TAs), as well as immediate feedback to quick quizzes and
+          assignments.
+          <br></br>
+          <strong>Note:&nbsp;</strong>MOOCs are great for learning. However, be careful to not submit code 
+          from the tutorials/courses. MOOCs should be used solely for learning.
+        </div>
         <br></br>
-        <br></br>
-        <strong>Note:&nbsp;</strong>MOOCs are great for learning. However, be careful to not submit code 
-        from the tutorials/courses. MOOCs should be used solely for learning.
-        <br></br>
-        <ul className="ml-4" style={{ listStyleType: 'disc' }}>
+        <ul className="ml-4" style={{ listStyleType: 'disc', fontSize: "14px" }}>
           <li className="mt-4">
             <a target="_blank" href="https://www.coursera.org/">
               Coursera:
@@ -485,14 +460,26 @@ export default () => {
     <Layout>
       <SEO />
       <section id="countdown" className="">
-        <div className="container mx-auto mt-10">
+         <div className="container mx-auto mt-10">
           <h2 className="text-3xl lg:text-5xl title font-semibold">
             Sponsor Resources
           </h2>
         </div>
-        <h1 className="text-center">COMING SOON!</h1>
+        <div className="container mx-auto mt-10">
+          <Card className="bg-purply-white text-black nes-container is-rounded">
+          {
+            sponsorResources.map(resource => {
+              return <Accordion
+                key={resource.name}
+                title={resource.name}
+                content={resource.details}
+              />;
+            })
+          }
+          </Card>
+        </div>
+        {/*<h1 className="text-center">COMING SOON!</h1>
 
-        {/* my only hope is that this code is so bad I'm never allowed to write ReactJS again and I can go back to data science in peace */}
         <br/>
         <br/>
         <br/>
@@ -509,14 +496,30 @@ export default () => {
         <br/>
         <br/>
         <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/> */}
 
-        {/*<div className="container mx-auto mt-10">
+        <div className="container mx-auto mt-10">
           <h2 className="text-3xl lg:text-5xl title font-semibold">
             Other Resources
           </h2>
         </div>
         <div className="container mx-auto mt-10">
-          <Card className="bg-purply-white text-black">
+          <Card className="bg-purply-white text-black nes-container is-rounded">
             {
               freeResources.map(resource => {
                 return <Accordion
@@ -527,7 +530,15 @@ export default () => {
               })
             }
           </Card>
-          </div>*/}
+          </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
       </section>
     </Layout>
   );

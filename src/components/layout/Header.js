@@ -46,13 +46,10 @@ const Header = ({ page = `index` } = {}) => {
             {/* <Link className="px-4 lg:px-10 nav-link mt-4" to="/mentors">
               Mentors
             </Link> */}
-            <Link className="px-4 lg:px-10 nav-link mt-6" to="/resources">
+            {/* add mt-6 */}
+            <Link className="px-4 lg:px-10 nav-link" to="/resources"> 
               Resources
             </Link>
-            <button><a target="_blank"
-                      className="primary-button ma2 nes-btn"
-                      href="https://gather.town/app/758An53btp2jKRWc/Sponsor%20Room%201">SPONSOR EXPO</a>
-            </button>
           </div>
         )}
       </div>

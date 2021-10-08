@@ -12,42 +12,102 @@ const sponsorResources = [
   createResource('Amazon Web Services',
   (
     <p className="text-left" style={{fontSize: "16px"}}>
-      <a target="_blank" href="https://www.youtube.com/watch?v=a9__D53WsUs">What is AWS? Video Workshop</a>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=a9__D53WsUs">What is AWS?</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=iHX-jtKIVNA">Amazon EC2 Basics & Instances Workshops</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=e6w9LwZJFIA">Getting Started with S3</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=1aY2KJldLz0">How to Choose Database on AWS</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=hiKPPy584Mg">Amazon Networking Fundamentals</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=taMlabDBO58">Building a Website with Amazon Lightsail</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=voa0btsVSfk">How to Build a Simple Web App using AWS</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/watch?v=EBSdyoO3goc">Intro to AWS Lambda and Serverless Applications</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://www.youtube.com/playlist?list=PLhr1KZpdzukcgcRuY-tWTg3rEryYIPSNW">AWS Developers Tools and Services - Playlist</a></li>
+    </p>
+  )),
+  createResource('AssemblyAI',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <li><a target="_blank" href="https://assemblyai.notion.site/AssemblyAI-Hackathon-Quickstart-76cf5c07aeff4f06ba9ac193899c0a4b">Getting Started with AssemblyAI</a></li>
+    </p>
+  )),
+  createResource('Balsamiq',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+        <li>Providing a 90-day extended free trial of Balsamiq Cloud</li>
+        <br></br>
+        <li style={{ paddingLeft: "3rem" }}>Promo Code: BQMDDPQXY100222</li>
+    </p>
+  )),
+  createResource('Digital Ocean',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      $100, 60-day free trial of Digital Ocean for all attendees using this link/scanning the attached QR code: 
       <br></br>
       <br></br>
-      <a target="_blank" href="https://www.youtube.com/watch?v=iHX-jtKIVNA">Amazon EC2 Basics & Instances Workshops</a>
+      <li><a target="_blank" href="https://try.digitalocean.com/developer-cloud">https://try.digitalocean.com/developer-cloud</a></li>
+      <br></br>
+      Smart Hack Prize Category: 
       <br></br>
       <br></br>
-      <a target="_blank" href="https://www.youtube.com/watch?v=e6w9LwZJFIA">Getting Started with S3</a>
+      <li>The winning team of this category will receive $100 additional Digital Ocean credits</li>
+    </p>
+  )),
+  createResource('Google Registry',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <li><a target="_blank" href="https://get.dev/domainsfordevs/">Google Registry Quickstart</a></li>
+    </p>
+  )),
+  createResource('MLH',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <strong>Hacker Cheat Sheet:</strong>
       <br></br>
       <br></br>
-      <a target="_blank" href="https://www.youtube.com/watch?v=1aY2KJldLz0">How to Choose Database on AWS</a>
+      <li><a target="_blank" href="https://hack.mlh.io/">hack.mlh.io</a></li>
       <br></br>
+      <br></br>
+      <strong>MLH Software Lab:</strong>
+      <br></br>
+      <br></br>
+      <li><a target="_blank" href="https://hack.mlh.io/software/">hack.mlh.io/software</a></li>
+      <br></br>
+      <br></br>
+      <strong>Learn (Powered By GitHub):</strong>
+      <br></br>
+      <br></br>
+      <li><a target="_blank" href="https://hack.mlh.io/learn/">hack.mlh.io/learn</a></li>
       <br></br>
     </p>
+  )),
+  createResource('SashiDo',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <li><a target="_blank" href="https://dashboard.sashido.io/register">SashiDo 45-Day Free Trial</a></li>
+    </p>
+  )),
+  createResource('Sketch',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <li><a target="_blank" href="https://www.sketch.com/signup">Free Sketch Account Signup</a></li>
+    </p>
+  )),
+  createResource('Tezos',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+      <li><a target="_blank" href="https://tezos.com/learn/getting-started/">General Overview of Tezos</a></li>
+      <br></br>
+      <li><a target="_blank" href="https://tezos.com/developer-portal/">Tezos Developer Portal</a></li>
+    </p>
   ))
-  // createResource('MLH',
-  // (
-  //   <p className="text-left">
-  //     <strong>Hacker Cheat Sheet</strong>
-  //     <br></br>
-  //     <br></br>
-  //     <a target="_blank" href="https://hack.mlh.io/">hack.mlh.io</a>
-  //     <br></br>
-  //     <br></br>
-  //     <strong>MLH Software Lab</strong>
-  //     <br></br>
-  //     <br></br>
-  //     <a target="_blank" href="https://hack.mlh.io/software/">hack.mlh.io/software</a>
-  //     <br></br>
-  //     <br></br>
-  //     <strong>Learn (Powered By GitHub)</strong>
-  //     <br></br>
-  //     <br></br>
-  //     <a target="_blank" href="https://hack.mlh.io/learn/">hack.mlh.io/learn</a>
-  //     <br></br>
-  //   </p>
-  // )),
+
   // createResource('Wolfram Research',
   // (
   //   <p className="text-left">

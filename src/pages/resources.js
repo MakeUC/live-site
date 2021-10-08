@@ -42,7 +42,7 @@ const sponsorResources = [
     <p className="text-left" style={{fontSize: "16px"}}>
         <li>Providing a 90-day extended free trial of Balsamiq Cloud</li>
         <br></br>
-        <li style={{ paddingLeft: "3rem" }}>Promo Code: BQMDDPQXY100222</li>
+        {/* <li style={{ paddingLeft: "3rem" }}>Promo Code: BQMDDPQXY100222</li> */}
     </p>
   )),
   createResource('Digital Ocean',

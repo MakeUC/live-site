@@ -62,7 +62,8 @@ const sponsorResources = [
   createResource('Google Registry',
   (
     <p className="text-left" style={{fontSize: "16px"}}>
-      <li><a target="_blank" href="https://get.dev/domainsfordevs/">Google Registry Quickstart</a></li>
+      {/* <li><a target="_blank" href="https://get.dev/domainsfordevs/">Google Registry Quickstart</a></li> */}
+      <li>DM @Jaran (MakeUC) on the MakeUC Discord Server for More Information</li>
     </p>
   )),
   createResource('MLH',

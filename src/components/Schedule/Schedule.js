@@ -35,7 +35,7 @@ const generalRows = [
   createData("U.S. Air Force Cybersecurity", "Oct 9 - 7:00 PM", "Oct 9 - 8:00 PM"),
   createData("Gartic Phone", "Oct 9 - 9:00 PM", "Oct 9 - 10:00 PM"),
   createData("Networking Hour", "Oct 9 - 11:00 PM", "Oct 10 - 12:00 AM"),
-  createData("Midnight Snack (In-Person)", "Oct 9 - 11:15 AM", "Oct 9 - 12:00 PM"),
+  createData("Midnight Snack (In-Person)", "Oct 9 - 11:15 PM", "Oct 9 - 12:00 AM"),
   createData("Jackbox Games and Quiplash", "Oct 10 - 1:00 AM", "Oct 10 - 2:30 AM"),
   createData("Among Us", "Oct 10 - 3:00 AM", "Oct 10 - 4:00 AM"),
   createData("Stretching", "Oct 10 - 5:00 AM", "Oct 10 - 5:30 AM"),

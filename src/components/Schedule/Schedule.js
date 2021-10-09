@@ -47,14 +47,14 @@ const generalRows = [
 ];
 
 const workShopRows = [
-  createData("Amazon Web Services", "Oct 9 - 02:00 PM", "Oct 9 - 02:30 PM"),
-  createData("Givaudan", "Oct 9 - 2:30 PM", "Oct 9 - 03:00 PM"),
-  createData("MongoDB", "Oct 9 - 03:00 PM", "Oct 9 - 03:30 PM"),
-  createData("Guerbet", "Oct 9 - 03:30 PM", "Oct 9 - 04:00 PM"),
-  createData("Ernst & Young", "Oct 9 - 04:30 PM", "Oct 9 - 5:00 PM"),
-  createData("Northrop Grumman", "Oct 9 - 04:30 PM", "Oct 9 - 5:00 PM"),
-  createData("Microsoft (Sean Kane)", "Oct 9 - 05:00 PM", "Oct 9 - 5:30 PM"),
-  createData("AssemblyAI", "Oct 9 - 05:30 PM", "Oct 9 - 6:00 PM")
+  createData("Amazon Web Services", "Oct 9 - 2:00 PM", "Oct 9 - 2:30 PM"),
+  createData("Givaudan", "Oct 9 - 2:30 PM", "Oct 9 - 3:00 PM"),
+  createData("MongoDB", "Oct 9 - 3:00 PM", "Oct 9 - 3:30 PM"),
+  createData("Guerbet", "Oct 9 - 3:30 PM", "Oct 9 - 4:00 PM"),
+  createData("Ernst & Young", "Oct 9 - 4:30 PM", "Oct 9 - 5:00 PM"),
+  createData("Northrop Grumman", "Oct 9 - 4:30 PM", "Oct 9 - 5:00 PM"),
+  // createData("Microsoft (Sean Kane)", "Oct 9 - 05:00 PM", "Oct 9 - 5:30 PM"),
+  createData("AssemblyAI", "Oct 9 - 5:30 PM", "Oct 9 - 6:00 PM")
 ];
 
 export default function BasicTable() {

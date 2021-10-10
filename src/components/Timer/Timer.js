@@ -3,8 +3,8 @@ import './Timer.scss';
 import '../../styles/_variables.scss';
 import '../../styles/_font.scss';
 
-const startTime = new Date(`2021-10-09T11:00:00-04:00`);
-const endTime = new Date(`2021-10-10T10:59:00-04:00`);
+const startTime = new Date(`2021-10-09T11:15:00-04:00`);
+const endTime = new Date(`2021-10-10T11:15:00-04:00`);
 
 const msToTime = ms => {
   let seconds = Math.floor((ms / 1000) % 60),

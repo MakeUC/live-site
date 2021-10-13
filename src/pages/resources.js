@@ -107,97 +107,120 @@ const sponsorResources = [
       <br></br>
       <li><a target="_blank" href="https://tezos.com/developer-portal/">Tezos Developer Portal</a></li>
     </p>
+  )),
+  createResource('Wolfram Research',
+  (
+    <p className="text-left" style={{fontSize: "16px"}}>
+    <strong>Wolfram API</strong>
+    <br></br>
+    <br></br>
+    <strong>Redeem here:</strong>
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://account.wolfram.com/redeem/zMakeUC1021">account.wolfram.com/redeem/zMakeUC1021</a>
+    <br></br>
+    <br></br>
+    The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
+    don't already have
+    a Wolfram ID, you'll be prompted to create one using an active email address. Once logged in, you
+    will see in the Downloads section which platforms of the software you have access to, with their accompanying
+    activation keys.
+    <br></br>
+    <br></br>
+    Please download the desktop version to your machine, boot up the application and use the associated
+    activation key
+    when prompted. This will grant you full access for 30 days from your activation date.
+    <br></br>
+    <br></br>
+    When you access Wolfram|One in the cloud for the first time, you can create a new notebook or load a
+    pre-made
+    Things to Try live notebook, which is designed to guide you through neat things you can immediately
+    compute.
+    <br></br>
+    <br></br>
+    You can use Wolfram|One to create instant web apps and APIs, or to deploy to mobile. The Wolfram
+    Language is also
+    bundled on the Raspberry Pi, where you can connect directly to hardware, including Arduino etc.
+    <br></br>
+    <br></br>
+    The fastest way to get an API up and running is detailed in the extensive Documentation Center
+    available to you
+    alongside your notebook: simply click the section in the documentation labeled Cloud and Deployment
+    and select
+    Instant APIs to access a handy how-to guide to help get you started.
+    <br></br>
+    <br></br>
+    To view your account details-- including your available Cloud Credits and Cloud storage-- or
+    re-download Wolfram|One,
+    visit the following page:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://account.wolfram.com/products">account.wolfram.com/products</a>
+    <br></br>
+    <br></br>
+    Wolfram|One is the world's first fully integrated cloud-desktop hybrid, integrated computation
+    platform.
+    The core of our technology stack is the Wolfram Language, which builds on three decades of
+    development, and
+    represents a new direction in programming-- that happens to be absolutely ideal for hackathons.
+    <br></br>
+    <br></br>
+    <strong>Careers</strong>
+    <br></br>
+    <br></br>
+    Wolfram offers several research-based educational programs for students interested in computational thinking, 
+    programming with the Wolfram Language, math, machine learning, innovative technology, scientific research, 
+    and project publication. Our programs include:
+    <br></br>
+    <br></br>
+    Wolfram Middle School Summer Camp for Girls ages 11-14:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://education.wolfram.com/middle-school-camp/">education.wolfram.com/middle-school-camp</a>
+    <br></br>
+    <br></br>
+    Wolfram High School Summer Camp for secondary students ages 17 and under:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://education.wolfram.com/summer-camp/">education.wolfram.com/summer-camp</a>
+    <br></br>
+    <br></br>
+    Wolfram Gap Year Research Programs for pre-college and pre-graduate school students:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://education.wolfram.com/gap-year/">education.wolfram.com/gap-year</a>
+    <br></br>
+    <br></br>
+    Wolfram Summer School for undergrads and up:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://education.wolfram.com/summer-school/">education.wolfram.com/summer-school</a>
+    <br></br>
+    <br></br>
+    Additional programs and details can be found here:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://education.wolfram.com/programs/">education.wolfram.com/programs</a>
+    <br></br>
+    <br></br>
+    Interested in Wolfram mentorships or internships? Check out our opportunities here:
+    <br></br>
+    <br></br>
+    <a target="_blank"
+        href="https://www.wolfram.com/company/careers">wolfram.com/company/careers</a>
+    <br></br>
+    <br></br>
+    Good luck, and happy hacking!
+    <br></br>
+  </p>
   ))
-
-  // createResource('Wolfram Research',
-  // (
-  //   <p className="text-left">
-  //   <strong>Wolfram API</strong>
-  //   <br></br>
-  //   <br></br>
-  //   <strong>Redeem here.</strong>
-  //   <br></br>
-  //   <br></br>
-  //   <a target="_blank"
-  //       href="https://account.wolfram.com/redeem/MakeUC1020">account.wolfram.com/redeem/MakeUC1020</a>
-  //   <br></br>
-  //   <br></br>
-  //   The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
-  //   don't already have
-  //   a Wolfram ID, you'll be prompted to create one using an active email address. Once logged in, you
-  //   will see in the Downloads section which platforms of the software you have access to, with their accompanying
-  //   activation keys.
-  //   <br></br>
-  //   <br></br>
-  //   Please download the desktop version to your machine, boot up the application and use the associated
-  //   activation key
-  //   when prompted. This will grant you full access for 30 days from your activation date.
-  //   <br></br>
-  //   <br></br>
-  //   When you access Wolfram|One in the cloud for the first time, you can create a new notebook or load a
-  //   pre-made
-  //   Things to Try live notebook, which is designed to guide you through neat things you can immediately
-  //   compute.
-  //   <br></br>
-  //   <br></br>
-  //   You can use Wolfram|One to create instant web apps and APIs, or to deploy to mobile. The Wolfram
-  //   Language is also
-  //   bundled on the Raspberry Pi, where you can connect directly to hardware, including Arduino etc.
-  //   <br></br>
-  //   <br></br>
-  //   The fastest way to get an API up and running is detailed in the extensive Documentation Center
-  //   available to you
-  //   alongside your notebook: simply click the section in the documentation labeled Cloud and Deployment
-  //   and select
-  //   Instant APIs to access a handy how-to guide to help get you started.
-  //   <br></br>
-  //   <br></br>
-  //   To view your account details-- including your available Cloud Credits and Cloud storage-- or
-  //   re-download Wolfram|One,
-  //   visit the following page:
-  //   <br></br>
-  //   <br></br>
-  //   <a target="_blank"
-  //       href="https://account.wolfram.com/products">account.wolfram.com/products</a>
-  //   <br></br>
-  //   <br></br>
-  //   Wolfram|One is the world's first fully integrated cloud-desktop hybrid, integrated computation
-  //   platform.
-  //   The core of our technology stack is the Wolfram Language, which builds on three decades of
-  //   development, and
-  //   represents a new direction in programming-- that happens to be absolutely ideal for hackathons.
-  //   <br></br>
-  //   <br></br>
-  //   <strong>Careers</strong>
-  //   <br></br>
-  //   <br></br>
-  //   Wolfram Summer Programs has offerings for exceptional teens in high school as well as undergrads
-  //   through post-docs. 
-  //   <br></br>
-  //   <br></br>
-  //   These programs are for those interested in programming, computational thinking, machine
-  //   learning, and innovative tech. Students create and complete a unique project to publish 
-  //   during the program. 
-  //   <br></br>
-  //   <br></br>
-  //   To sign up for 2021 registration announcements visit:
-  //   <br></br>
-  //   <br></br>
-  //   <a target="_blank"
-  //       href="https://education.wolfram.com/summer/">education.wolfram.com/summer</a>
-  //   <br></br>
-  //   <br></br>
-  //   Interested in Wolfram mentorships or internships? Check out our opportunities here:
-  //   <br></br>
-  //   <br></br>
-  //   <a target="_blank"
-  //       href="https://www.wolfram.com/company/careers">wolfram.com/company/careers</a>
-  //   <br></br>
-  //   <br></br>
-  //   Good luck, and happy hacking!
-  //   <br></br>
-  // </p>
-  // )),
   // createResource('Google Cloud', (
   //   <p className="text-left">
   //     <strong>Google Cloud Credits</strong>

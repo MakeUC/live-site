@@ -58,7 +58,7 @@ const Timer = () => {
   }, []);
 
   return <>
-    <h2 className="f-subheadline-ns f2 b lh-solid font-merriweather index-countdown tc">
+    <h2 className="f-subheadline-ns f2 b lh-solid font-merriweather index-countdown tc" style={{fontSize: "45px"}}>
       {eta || `Hacking has ended!`}
     </h2>
     <h1 className="index-countdown f3 font-opensans">

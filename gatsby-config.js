@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `MakeUC 2021`,
+    title: `MakeUC 2022`,
     siteUrl: `https://makeuc.io`,
     description: `MakeUC 2021 is a 24-hour hackathon hosted by IEEE at University of Cincinnati!`
   },

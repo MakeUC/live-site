@@ -15,11 +15,11 @@ export default () => {
   return (
     <Layout>
       <SEO />
-      <section id="countdown" className="">
+      <section id="countdown" className="pt-10">
         <div className="container mx-auto tc mt-10">
           <div className="mv5">
-            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2">
-              MAKEUC 2021
+            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2" style={{ fontFamily: 'Quantum' }}>
+              MAKEUC 2022
             </h1>
           </div>
           <Timer />
@@ -27,11 +27,13 @@ export default () => {
       </section>
       <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt5">
         <button><a target="_blank"
-                   className="primary-button ma2 nes-btn"
+                   className="primary-button ma2"
+                   style={{textDecoration: 'none', border: '1px solid', borderRadius: '4px'}}
                    href="https://discord.gg/g2T8QAhaME">DISCORD</a>
         </button>
         <button><a target="_blank"
-                   className="primary-button ma2 nes-btn"
+                   className="primary-button ma2"
+                   style={{textDecoration: 'none', border: '1px solid', borderRadius: '4px'}}
                    href="https://makeuc-2021.devpost.com/">DEVPOST</a>
         </button>
         {/*<button><a target="_blank"

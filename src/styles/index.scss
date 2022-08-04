@@ -39,17 +39,18 @@ body, html {
   display:inline-block;
   cursor:pointer;
   color: $purple-white;
-  font-size:17px;
+  font-size:22px;
   padding:16px 31px;
   text-decoration:none;
+  font-family: 'Quantum';
 
   &:hover {
     background-color: $primary-dark;
     color: $purple-white;
   }
 
-  &:active {
-    position:relative;
-    top:1px;
-  }
+  // &:active {
+  //   position:relative;
+  //   top:1px;
+  // }
 }

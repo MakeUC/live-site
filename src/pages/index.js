@@ -11,16 +11,18 @@ import Timer from '../components/Timer/Timer';
 import 'tachyons';
 import '../styles/index.scss';
 
+import HeaderTitleImg from '../svg/header_title_image.png';
+
 export default () => {
   return (
     <Layout>
       <SEO />
       <section id="countdown" className="pt-10">
         <div className="container mx-auto tc mt-10">
-          <div className="mv5">
-            <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2" style={{ fontFamily: 'Quantum' }}>
-              MAKEUC 2022
-            </h1>
+          <div className="mv5" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+            {/* <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2" style={{ fontFamily: 'Quantum' }}> */}
+              <img src={HeaderTitleImg} alt="MakeUC" style={{textAlign: 'center'}}/>
+            {/* </h1> */}
           </div>
           <Timer />
         </div>

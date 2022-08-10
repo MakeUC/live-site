@@ -63,26 +63,26 @@ export default function BasicTable() {
   return (
     <div>
       <h1 className="index-countdown b mt0 font-opensans">Overview</h1>
-      <TableContainer className="schedule-bg nes-container is-rounded" component={Paper}>
+      <TableContainer className="schedule-bg is-rounded" component={Paper}>
         <Table className={classes.table + ' schedule-table'} aria-label="simple table">
           <TableHead className="schedule-gray-row">
-            <TableRow>
+            <TableRow style={{backgroundColor: '#191919', textTransform: 'uppercase'}}>
               <TableCell align="center" className="schedule-name"><span
-                className="font-primary b">Event</span></TableCell>
+                className="font-primary b" style={{fontSize: "20px", color: '#EDEDED'}}>Event</span></TableCell>
               <TableCell align="center" className="schedule-date-time"><span
-                className="font-primary b">Start Time (EDT)</span></TableCell>
+                className="font-primary b" style={{fontSize: "20px", color: '#EDEDED'}}>Start Time (EDT)</span></TableCell>
               <TableCell align="center" className="schedule-date-time"><span
-                className="font-primary b">End Time (EDT)</span></TableCell>
+                className="font-primary b" style={{fontSize: "20px", color: '#EDEDED'}}>End Time (EDT)</span></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {generalRows.map((row) => (
               <TableRow key={row.name}>
                 <TableCell align="center" className="schedule-name" component="th" scope="row">
-                  <span className="b">{row.name}</span>
+                  <span className="b" style={{fontSize: "20px"}}>{row.name}</span>
                 </TableCell>
-                <TableCell align="center" className="schedule-date-time">{row.start}</TableCell>
-                <TableCell align="center" className="schedule-date-time">{row.end}</TableCell>
+                <TableCell align="center" className="schedule-date-time" style={{fontSize: "20px"}}>{row.start}</TableCell>
+                <TableCell align="center" className="schedule-date-time" style={{fontSize: "20px"}}>{row.end}</TableCell>
               </TableRow>
             ))}
           </TableBody>
@@ -90,26 +90,26 @@ export default function BasicTable() {
       </TableContainer>
       <br></br>
       <h1 className="index-countdown b font-opensans">Workshops</h1>
-      <TableContainer className="schedule-bg mv3 nes-container is-rounded" component={Paper}>
+      <TableContainer className="schedule-bg mv3 is-rounded" component={Paper}>
         <Table className={classes.table + ' schedule-table'} aria-label="simple table">
           <TableHead className="schedule-gray-row">
-            <TableRow>
+            <TableRow style={{backgroundColor: '#191919', textTransform: 'uppercase'}}>
               <TableCell align="center" className="schedule-name"><span
-                className="font-primary b">Workshop</span></TableCell>
+                className="font-primary b" style={{fontSize: "20px", color: '#EDEDED'}}>Workshop</span></TableCell>
               <TableCell align="center" className="schedule-date-time"><span
-                className="font-primary b">Start Time (EDT)</span></TableCell>
+                className="font-primary b" style={{fontSize: "20px", color: '#EDEDED'}}>Start Time (EDT)</span></TableCell>
               <TableCell align="center" className="schedule-date-time"><span
-                className="font-primary b">End Time (EDT)</span></TableCell>
+                className="font-primary b" style={{fontSize: "20px", color: '#EDEDED'}}>End Time (EDT)</span></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {workShopRows.map((row) => (
               <TableRow key={row.name}>
                 <TableCell align="center" className="schedule-name" component="th" scope="row">
-                  <span className="b">{row.name}</span>
+                  <span className="b" style={{fontSize: "20px"}}>{row.name}</span>
                 </TableCell>
-                <TableCell align="center" className="schedule-date-time">{row.start}</TableCell>
-                <TableCell align="center" className="schedule-date-time">{row.end}</TableCell>
+                <TableCell align="center" className="schedule-date-time" style={{fontSize: "20px"}}>{row.start}</TableCell>
+                <TableCell align="center" className="schedule-date-time" style={{fontSize: "20px"}}>{row.end}</TableCell>
               </TableRow>
             ))}
           </TableBody>

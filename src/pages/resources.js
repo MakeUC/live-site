@@ -544,7 +544,7 @@ export default () => {
     <Layout>
       <SEO />
       <section id="countdown" className="">
-         <div className="container mx-auto mt-10">
+         <div className="container mx-auto mt-20" style={{paddingTop: "40px"}}>
           <h2 className="text-3xl lg:text-5xl title font-semibold">
             Sponsor Resources
           </h2>

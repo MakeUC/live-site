@@ -62,7 +62,6 @@ export default function BasicTable() {
 
   return (
     <div>
-      <h1 className="index-countdown b mt0 font-opensans">Overview</h1>
       <TableContainer className="schedule-bg is-rounded" component={Paper}>
         <Table className={classes.table + ' schedule-table'} aria-label="simple table">
           <TableHead className="schedule-gray-row">
@@ -89,7 +88,7 @@ export default function BasicTable() {
         </Table>
       </TableContainer>
       <br></br>
-      <h1 className="index-countdown b font-opensans">Workshops</h1>
+    <h2 className="text-3xl lg:text-5xl title font-semibold">Workshops</h2>
       <TableContainer className="schedule-bg mv3 is-rounded" component={Paper}>
         <Table className={classes.table + ' schedule-table'} aria-label="simple table">
           <TableHead className="schedule-gray-row">

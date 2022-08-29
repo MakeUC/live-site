@@ -88,7 +88,7 @@ const Header = ({ page = `index` } = {}) => {
               Mentors
             </Link> */}
             {/* add mt-6 */}
-            <Link className="px-4 lg:px-10 nav-link" to="/resources" style={{ fontFamily: 'Quantum' , textDecoration: 'none' }}> 
+            <Link className="px-4 lg:px-10 nav-link" to="/resources"> 
               RESOURCES
             </Link>
           </div>

@@ -12,6 +12,7 @@
   letter-spacing: 0.25rem;
   text-decoration: underline;
   text-decoration-color: $secondary-dark;
+  font-family: 'Quantum';
 }
 
 .underline-secondary {
@@ -42,7 +43,7 @@ body, html {
   font-size:22px;
   padding:16px 31px;
   text-decoration:none;
-  font-family: 'Quantum';
+  font-family: 'Montserrat';
 
   &:hover {
     background-color: $primary-dark;

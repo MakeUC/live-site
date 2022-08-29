@@ -21,7 +21,7 @@ export default () => {
         <div className="container mx-auto tc mt-10">
           <div className="mv5" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
             {/* <h1 className="f-subheadline-ns f1 lh-solid font-primary font-roboto b tracked pa2" style={{ fontFamily: 'Quantum' }}> */}
-              <img src={HeaderTitleImg} alt="MakeUC" style={{textAlign: 'center'}}/>
+              <img src={HeaderTitleImg} alt="MakeUC" style={{textAlign: 'center', maxWidth: '700px', width: '70%'}}/>
             {/* </h1> */}
           </div>
           <Timer />

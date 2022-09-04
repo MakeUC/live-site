@@ -36,12 +36,12 @@ export default () => {
         <button><a target="_blank"
                    className="primary-button ma2"
                    style={{textDecoration: 'none', border: '1px solid', borderRadius: '4px'}}
-                   href="https://makeuc-2021.devpost.com/">DEVPOST</a>
+                   href="https://makeuc-2022.devpost.com/">DEVPOST</a>
         </button>
         {/*<button><a target="_blank"
                   className="primary-button ma2 nes-btn"
                   href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">SPONSOR EXPO</a>
-  </button>*/}
+        </button>*/}
       </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">

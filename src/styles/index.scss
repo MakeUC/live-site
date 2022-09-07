@@ -12,6 +12,7 @@
   letter-spacing: 0.25rem;
   text-decoration: underline;
   text-decoration-color: $secondary-dark;
+  font-family: 'Quantum';
 }
 
 .underline-secondary {
@@ -39,17 +40,18 @@ body, html {
   display:inline-block;
   cursor:pointer;
   color: $purple-white;
-  font-size:17px;
+  font-size:22px;
   padding:16px 31px;
   text-decoration:none;
+  font-family: 'Montserrat';
 
   &:hover {
     background-color: $primary-dark;
     color: $purple-white;
   }
 
-  &:active {
-    position:relative;
-    top:1px;
-  }
+  // &:active {
+  //   position:relative;
+  //   top:1px;
+  // }
 }

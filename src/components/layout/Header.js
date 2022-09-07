@@ -2,6 +2,47 @@ import React, { useEffect, useState } from "react";
 import { Link } from "gatsby";
 import LogoIcon from "../../svg/LogoIcon";
 import Button from "../Button";
+import styled from 'styled-components';
+
+const Nav = styled.nav`
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 85px;
+  background-color: #212121;
+  display: grid;
+  align-items: center;
+  // grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 36px;
+  z-index: 3;
+  color: #f1f1f1;
+  font-size: 2em;
+
+  // > *:nth-child(2) {
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  // > *:nth-child(3) {
+  //   display: flex;
+  //   justify-content: end;
+  // }
+
+  a {
+    color: #f1f1f1 !important;
+
+    :hover {
+      color: #8b728e !important;
+    }
+  }
+
+  // @media screen and (max-width: 800px) {
+  //   > *:nth-child(2) {
+  //     display: none;
+  //   }
+  // }
+`;
 
 const Header = ({ page = `index` } = {}) => {
   const [state, setState] = useState(`top`);
@@ -24,11 +65,11 @@ const Header = ({ page = `index` } = {}) => {
   });
 
   return (
-    <header
-      className={`sticky top-0 shadow navbar ${state}`}
-      style={{
-        zIndex: 10,
-      }}
+    <Nav
+      // className={`sticky navbar ${state}`}
+      // style={{
+      //   zIndex: 10,
+      // }}
     >
       <div className="container flex flex-col sm:flex-row items-center justify-between max-w-full px-8 py-2">
         <Link to="/">
@@ -48,7 +89,7 @@ const Header = ({ page = `index` } = {}) => {
             </Link> */}
             {/* add mt-6 */}
             <Link className="px-4 lg:px-10 nav-link" to="/resources"> 
-              Resources
+              RESOURCES
             </Link>
           </div>
         )}
@@ -70,12 +111,12 @@ const Header = ({ page = `index` } = {}) => {
         target="_blank"
       >
         <img 
-          src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg" 
-          alt="Major League Hacking 2022 Hackathon Season" 
+          src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg" 
+          alt="Major League Hacking 2023 Hackathon Season" 
           style={{width: "100%"}}
         />
       </a>
-    </header>
+    </Nav>
   );
 };
 

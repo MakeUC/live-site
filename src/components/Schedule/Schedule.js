@@ -38,7 +38,7 @@ const generalRows = [
   createData("Super Smash Bros Tournament", "Oct 22 - 09:00 PM", "Oct 23 - 10:00 PM"),
   createData("Skribbl.io", "Oct 22 - 11:00 PM", "Oct 23 - 12:00 AM"),
   createData("Midnight Snack (In-Person)", "Oct 23 - 12:30 AM", "Oct 23 - 01:00 AM"),
-  createData("Jackbox Games: Quiplash", "Oct 23 - 01:00 AM", "Oct 23 - 2:30 AM"),
+  createData("Jackbox Games: Quiplash", "Oct 23 - 01:00 AM", "Oct 23 - 02:30 AM"),
   createData("Among Us", "Oct 23 - 03:00 AM", "Oct 23 - 04:00 AM"),
   createData("Stretching", "Oct 23 - 05:00 AM", "Oct 23 - 05:30 AM"),
   createData("Breakfast (In-Person)", "Oct 23 - 07:00 AM", "Oct 23 - 07:30 AM"),

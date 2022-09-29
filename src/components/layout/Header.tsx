@@ -1,8 +1,11 @@
-import React, { useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { Link } from "gatsby";
 import LogoIcon from "../../svg/LogoIcon";
-import Button from "../Button";
 import styled from 'styled-components';
+
+export type HeaderProps = {
+  page?: string;
+};
 
 const Nav = styled.nav`
   position: fixed;
@@ -44,7 +47,7 @@ const Nav = styled.nav`
   // }
 `;
 
-const Header = ({ page = `index` } = {}) => {
+const Header: FC<HeaderProps>  = ({ page = `index` } = {}) => {
   const [state, setState] = useState(`top`);
 
   useEffect(() => {

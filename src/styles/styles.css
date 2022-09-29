@@ -1,33 +1,45 @@
+@import '../../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-buttons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-calendars/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-inputs/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-lists/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-popups/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-splitbuttons/styles/material.css';
+@import '../../node_modules/@syncfusion/ej2-react-schedule/styles/material.css';
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 @font-face {
-    font-family: Quantum;
-    src: local('Quantum'), url(../assets/fonts/Quantum.otf) format('opentype');
+  font-family: Quantum;
+  src: local('Quantum'), url(../assets/fonts/Quantum.otf) format('opentype');
 }
 
 main {
-  background-color: black;
-  background-image: url('./background.png');
-  background-size: cover;
-  background-attachment: fixed;
   color: theme('colors.white');
-  /* font-family: 'Press Start 2P'; */
+}
+
+body {
+  background-color: #212121;
 }
 
 .navbar {
   transition: 0.5s;
+  background-color: #212121;
 }
 
 .navbar.top {
-  background-color: transparent;
+  /* Before the site has scrolled, this is activated */
 }
 
 .navbar.scrolling {
-  background-color: theme('colors.primary.translucent');
+  /* After the site has scrolled, this is activated */
 }
 
 .navbar .nav-link {
   font-weight: bold;
+  font-size: 30px;
+  color: theme('colors.white');
 }
 
 .navbar .nav-link:hover {
@@ -44,7 +56,7 @@ main {
 }
 
 .register-form input[type='file'] {
-  color: theme('colors.white');
+  color: theme('colors.black	');
 }
 
 .dropzone {
@@ -83,37 +95,85 @@ main {
   display: none !important;
 }
 
+.light-link {
+  color: theme('colors.white');
+  text-decoration: underline;
+}
+
 .light-link:hover {
   color: theme('colors.secondary.default');
 }
 
 .partner:hover {
-  opacity: 0.60;
+  opacity: 0.6;
 }
-
 
 #ghost {
   display: none;
 }
 
-footer.mountain-background {
-  background-color: #110000;
+footer {
+  background-color: #212121;
 }
 
-.nes-container.is-transparent-dark {
-  position: relative;
-  margin: 4px;
-  color: #fff;
-  background-color: rgba(59,31,134,0.6);
-  border-color: #fff;
-}
-
-.nes-container.is-transparent-dark.with-title>.title {
-  color: #fff;
-  background-color: rgba(59,31,134,0.6);
+a:hover {
+  color: theme('colors.secondary.default');
 }
 
 #logo {
   max-width: auto;
   height: auto;
+}
+
+.schedule-bg {
+  background-color: $purple-white !important;
+  font-size: 25px;
+}
+
+table tr:nth-child(2n + 2) {
+  font-size: 25px;
+  background-color: #ecebf5;
+}
+
+.schedule-gray-row tr:nth-child(1) {
+  font-size: 25px;
+
+  background-color: #ecebf5;
+}
+
+.schedule-date-time {
+  width: 1.5rem !important;
+  font-size: 25px;
+}
+
+.schedule-name {
+  font-size: 20px;
+  width: 1.5rem !important;
+}
+
+.schedule-table {
+  font-size: 25px;
+
+  table-layout: fixed !important;
+}
+
+.bg-primary {
+  --bg-opacity: 1;
+  background-color: #126f52;
+  font-size: 20px;
+}
+
+.text-white {
+  --text-opacity: 1;
+  color: #f1f1f1;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }

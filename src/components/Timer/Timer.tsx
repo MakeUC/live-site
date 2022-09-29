@@ -12,7 +12,7 @@ interface TimeLeft {
 }
 
 const startTime = new Date(`2022-10-22T11:15:00-04:00`);
-const endTime = new Date(`2021-10-23T11:15:00-04:00`);
+const endTime = new Date(`2022-10-23T11:15:00-04:00`);
 
 const msToTime = (ms: number): TimeLeft => {
   const seconds = Math.floor((ms / 1000) % 60),

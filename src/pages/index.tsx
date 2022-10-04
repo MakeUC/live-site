@@ -19,7 +19,7 @@ const IndexPage: FC = () => (
     <Layout>
       <SEO />
       <section id="countdown" className="pt-10">
-        <div className="container mx-auto tc mt-10">
+        <div className="container mx-auto tc mt-32">
           <div
             className="mv5"
             style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
@@ -33,7 +33,7 @@ const IndexPage: FC = () => (
           <Timer />
         </div>
       </section>
-      <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt6">
+      <div className="container ml-auto mr-auto flex flex-wrap items-center justify-center mt4">
         <button>
           <a
             target="_blank"

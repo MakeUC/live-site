@@ -54,6 +54,16 @@ const IndexPage: FC = () => (
             DEVPOST
           </a>
         </button>
+        <button>
+          <a
+            target="_blank"
+            className="primary-button ma2"
+            style={{ textDecoration: 'none', border: '1px solid', borderRadius: '4px' }}
+            href="https://drive.google.com/drive/folders/1Yp57tL3SMAg28nTCUAdE5_CncQURF11M?usp=sharing/"
+          >
+            VENUE
+          </a>
+        </button>
       </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">

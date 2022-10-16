@@ -94,6 +94,9 @@ const Header: FC<HeaderProps>  = ({ page = `index` } = {}) => {
             <Link className="px-4 lg:px-10 nav-link" to="/resources"> 
               RESOURCES
             </Link>
+            <Link className="px-4 lg:px-10 nav-link" to="/judging"> 
+              JUDGING
+            </Link>
           </div>
         )}
       </div>

@@ -14,9 +14,9 @@ const Error404Page: FC = () => (
           <div className="text-center lg:text-left">
             <h1 className="text-404 font-bold leading-none">404!</h1>
             <p className="text-xl lg:text-3xl mt-6 font-light">
-              It looks like the page you&apos;re searching for does not exist.
+              It looks like the page you are searching for does not exist.
             </p>
-            <p className="text-sm mt-6 font-light">
+            <p className="text-l mt-6 font-light">
               Impossible. Perhaps the website is incomplete?
             </p>
             <p className="mt-8 md:mt-12">

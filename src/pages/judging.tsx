@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import Layout from '../components/layout/Layout';
+import Card from '../components/Card';
 import { PageContainer } from '../components/PageStyles/StyledComponents';
 import SEO from '../components/SEO';
 
@@ -10,7 +11,8 @@ const JudgingPage: FC = () => (
         <section id="countdown" className="">
           <div className="container mx-auto mt-20" style={{ paddingTop: '40px' }}>
             <h2 className="text-3xl lg:text-5xl title font-semibold">Format</h2>
-            <p className="text-xl lg:text-3xl mt-6 font-light">
+            <Card className="m-4 bg-white text-center is-centered is-rounded">
+            <p className="text-xl lg:text-3xl mt-6 font-black">
               This year, you have the option to be judged live via 10 minute calls with judges! 
               Calls will take place on Discord in the various judging room voice channels 
               (these will become visible after hacking ends). If you are part of a team, 
@@ -20,18 +22,22 @@ const JudgingPage: FC = () => (
             Please note: Live judging is not required. If you do not sign up for a slot, 
             your project will be judged solely from your Devpost submission.
             </p>
+            </Card>
             <br></br>
             <br></br>
             <h2 className="text-3xl lg:text-5xl title font-semibold">Submissions</h2>
-            <p className="text-xl lg:text-3xl mt-6 font-light">
+            <Card className="m-4 bg-white text-center is-centered is-rounded">
+            <p className="text-xl lg:text-3xl mt-6 font-black">
               ALL projects must be submitted on Devpost in order to be considered for prizes. Your
               Devpost submission must consist of a video (no more than 3 minutes) describing your 
               project, an ACCESSIBLE link to any code/ files used, and a brief writeup.
             </p>
+            </Card>
             <br></br>
             <br></br>
             <h2 className="text-xl lg:text-5xl title font-semibold">Live Judging DO's and DONT's:</h2>
-            <p className="text-xl lg:text-3xl mt-6 font-light">
+            <Card className="m-4 bg-white text-center is-centered is-rounded">
+            <p className="text-xl lg:text-3xl mt-6 font-black">
               DO sign up for a time slot after submitting your project on Devpost. <br></br>
               DO provide the link to your Devpost submission when you sign up for your time slot. <br></br>
               DO join the correct voice channel on time. 
@@ -41,6 +47,7 @@ const JudgingPage: FC = () => (
               participate in live judging. <br></br>
               DO NOT sign up for more than one time slot (one project = one time slot). 
             </p>
+            </Card>
             <br></br>
             <br></br>
           </div>

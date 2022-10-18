@@ -111,13 +111,6 @@ const sponsorResources = [
       <li>The winning team of this category will receive $100 additional Digital Ocean credits</li>
     </p>
   ),
-  // createResource('Google Registry',
-  // (
-  //   <p className="text-left" style={{fontSize: "16px"}}>
-  //     {/* <li><a target="_blank" href="https://get.dev/domainsfordevs/">Google Registry Quickstart</a></li> */}
-  //     <li>DM @Jaran (MakeUC) on the MakeUC Discord Server for More Information</li>
-  //   </p>
-  // )),
   createResource(
     'MLH',
     <p className="text-left" style={{ fontSize: '16px' }}>
@@ -150,26 +143,6 @@ const sponsorResources = [
         </a>
       </li>
       <br></br>
-    </p>
-  ),
-  createResource(
-    'SashiDo',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>
-        <a target="_blank" href="https://dashboard.sashido.io/register">
-          SashiDo 45-Day Free Trial
-        </a>
-      </li>
-    </p>
-  ),
-  createResource(
-    'Sketch',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>
-        <a target="_blank" href="https://www.sketch.com/signup">
-          Free Sketch Account Signup
-        </a>
-      </li>
     </p>
   ),
   createResource(
@@ -565,6 +538,72 @@ const freeResources = [
         make it as generic and reusable as possible to cover most use cases of hackathon web apps,
         without being too specific.
       </div>
+    </p>
+  ),
+  createResource(
+    'Hardware',
+    <p className="text-left">
+      <div style={{ fontSize: '16px' }}>
+        <br></br>
+        <strong>MakeUC isn't just software-related!&nbsp;</strong> Projects involving (or focusing on)
+        hardware are more than welcomed. If you're just getting started, or you want some inspiration,
+        take a look at some of the resources below.
+      </div>
+      <br></br>
+      <ul className="ml-4" style={{ listStyleType: 'disc', fontSize: '14px' }}>
+        <li className="mt-4">
+          <a target="_blank" href="https://www.digikey.com/reference-designs/en">
+            Digi-Key Reference Designs:
+          </a>
+          &nbsp; Access schematics for hundreds of circuits that have been designed and tested
+          to solve practical problems and reduce engineering time.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://www.digikey.com/en/resources/online-conversion-calculators">
+           Digi-Key Conversion Calculators:
+          </a>
+          &nbsp; Online calculators for Ohm's Law, resistor values, current dividers, and more.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://hackaday.com/">
+            HACKADAY:
+          </a>
+          &nbsp; Blog dedicated to "hacks" from around the world.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://create.arduino.cc/projecthub">
+            Arduino Project Hub:
+          </a>
+          &nbsp; One-stop shop for Arduino projects.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://www.circuitlab.com/">
+            CircuitLab:
+          </a>
+          &nbsp; Online circuit schematics and simulation.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://www.electronics-tutorials.ws/">
+            Electronics Tutorials:
+          </a>
+          &nbsp; Hundreds of articles about circuits and components, sorted into
+          categories for easy understanding and learning.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://mu.microchip.com/">
+            Microchip University:
+          </a>
+          &nbsp; Tutorials on embedded system design, toolchains, programming, and more
+          from Microchip (a leading manufacturer of microcontrollers and other electronics).
+        </li>
+
+      </ul>
     </p>
   ),
   createResource(

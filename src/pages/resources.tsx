@@ -72,52 +72,49 @@ const sponsorResources = [
     </p>
   ),
   createResource(
-    'AssemblyAI',
+    'echo3D',
     <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>
-        <a
-          target="_blank"
-          href="https://assemblyai.notion.site/AssemblyAI-Hackathon-Quickstart-76cf5c07aeff4f06ba9ac193899c0a4b"
-        >
-          Getting Started with AssemblyAI
-        </a>
-      </li>
-    </p>
-  ),
-  createResource(
-    'Balsamiq',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>Providing a 90-day extended free trial of Balsamiq Cloud</li>
-      <br></br>
-      {/* <li style={{ paddingLeft: "3rem" }}>Promo Code: BQMDDPQXY100222</li> */}
-    </p>
-  ),
-  createResource(
-    'Digital Ocean',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      $100, 60-day free trial of Digital Ocean for all attendees using this link/scanning the
-      attached QR code:
+      <strong>1-month FREE access to all Business Plan features:</strong>
       <br></br>
       <br></br>
       <li>
-        <a target="_blank" href="https://try.digitalocean.com/developer-cloud">
-          https://try.digitalocean.com/developer-cloud
+        <a target="_blank" href="https://console.echo3d.co/#/auth/register-promo?code=MakeUC">
+        https://console.echo3d.co/#/auth/register-promo?code=MakeUC
         </a>
       </li>
       <br></br>
-      Smart Hack Prize Category:
+      <br></br>
+      <strong>echo3D documentation:</strong>
       <br></br>
       <br></br>
-      <li>The winning team of this category will receive $100 additional Digital Ocean credits</li>
+      <li>
+        <a target="_blank" href="https://docs.echo3d.co/">
+        https://docs.echo3d.co/
+        </a>
+      </li>
+      <br></br>
+      <br></br>
+      <strong>echo3D GitHub:</strong>
+      <br></br>
+      <br></br>
+      <li>
+        <a target="_blank" href="https://github.com/echo3Dco">
+        https://github.com/echo3Dco
+        </a>
+      </li>
+      <br></br>
+      <br></br>
+      <strong>Workshop recording:</strong>
+      <br></br>
+      <br></br>
+      <li>
+        <a target="_blank" href="https://youtu.be/Pzf2Zrdm3N8">
+        https://youtu.be/Pzf2Zrdm3N8
+        </a>
+      </li>
+      <br></br>
     </p>
   ),
-  // createResource('Google Registry',
-  // (
-  //   <p className="text-left" style={{fontSize: "16px"}}>
-  //     {/* <li><a target="_blank" href="https://get.dev/domainsfordevs/">Google Registry Quickstart</a></li> */}
-  //     <li>DM @Jaran (MakeUC) on the MakeUC Discord Server for More Information</li>
-  //   </p>
-  // )),
   createResource(
     'MLH',
     <p className="text-left" style={{ fontSize: '16px' }}>
@@ -150,42 +147,6 @@ const sponsorResources = [
         </a>
       </li>
       <br></br>
-    </p>
-  ),
-  createResource(
-    'SashiDo',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>
-        <a target="_blank" href="https://dashboard.sashido.io/register">
-          SashiDo 45-Day Free Trial
-        </a>
-      </li>
-    </p>
-  ),
-  createResource(
-    'Sketch',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>
-        <a target="_blank" href="https://www.sketch.com/signup">
-          Free Sketch Account Signup
-        </a>
-      </li>
-    </p>
-  ),
-  createResource(
-    'Tezos',
-    <p className="text-left" style={{ fontSize: '16px' }}>
-      <li>
-        <a target="_blank" href="https://tezos.com/learn/getting-started/">
-          General Overview of Tezos
-        </a>
-      </li>
-      <br></br>
-      <li>
-        <a target="_blank" href="https://tezos.com/developer-portal/">
-          Tezos Developer Portal
-        </a>
-      </li>
     </p>
   ),
   createResource(
@@ -565,6 +526,72 @@ const freeResources = [
         make it as generic and reusable as possible to cover most use cases of hackathon web apps,
         without being too specific.
       </div>
+    </p>
+  ),
+  createResource(
+    'Hardware',
+    <p className="text-left">
+      <div style={{ fontSize: '16px' }}>
+        <br></br>
+        <strong>MakeUC isn't just software-related!&nbsp;</strong> Projects involving (or focusing on)
+        hardware are more than welcomed. If you're just getting started, or you want some inspiration,
+        take a look at some of the resources below.
+      </div>
+      <br></br>
+      <ul className="ml-4" style={{ listStyleType: 'disc', fontSize: '14px' }}>
+        <li className="mt-4">
+          <a target="_blank" href="https://www.digikey.com/reference-designs/en">
+            Digi-Key Reference Designs:
+          </a>
+          &nbsp; Access schematics for hundreds of circuits that have been designed and tested
+          to solve practical problems and reduce engineering time.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://www.digikey.com/en/resources/online-conversion-calculators">
+           Digi-Key Conversion Calculators:
+          </a>
+          &nbsp; Online calculators for Ohm's Law, resistor values, current dividers, and more.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://hackaday.com/">
+            HACKADAY:
+          </a>
+          &nbsp; Blog dedicated to "hacks" from around the world.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://create.arduino.cc/projecthub">
+            Arduino Project Hub:
+          </a>
+          &nbsp; One-stop shop for Arduino projects.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://www.circuitlab.com/">
+            CircuitLab:
+          </a>
+          &nbsp; Online circuit schematics and simulation.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://www.electronics-tutorials.ws/">
+            Electronics Tutorials:
+          </a>
+          &nbsp; Hundreds of articles about circuits and components, sorted into
+          categories for easy understanding and learning.
+        </li>
+
+        <li className="mt-4">
+          <a target="_blank" href="https://mu.microchip.com/">
+            Microchip University:
+          </a>
+          &nbsp; Tutorials on embedded system design, toolchains, programming, and more
+          from Microchip (a leading manufacturer of microcontrollers and other electronics).
+        </li>
+
+      </ul>
     </p>
   ),
   createResource(

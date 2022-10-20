@@ -64,6 +64,16 @@ const IndexPage: FC = () => (
             VENUE
           </a>
         </button>
+        <button>
+          <a
+            target="_blank"
+            className="primary-button ma2"
+            style={{ textDecoration: 'none', border: '1px solid', borderRadius: '4px' }}
+            href="https://youtube.com/playlist?list=PLMOg6ZY3DC6Pm0e0vpt2iCxsHRAJlfZeg"
+          >
+            CEREMONIES
+          </a>
+        </button>
       </div>
       <section id="schedule" className="mt6">
         <div className="container mx-auto px-8 text-center">

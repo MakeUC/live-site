@@ -74,76 +74,78 @@ const sponsorResources = [
   createResource(
     'echo3D',
     <p className="text-left" style={{ fontSize: '16px' }}>
-      <strong>1-month FREE access to all Business Plan features:</strong>
-      <br></br>
-      <br></br>
       <li>
         <a target="_blank" href="https://console.echo3d.co/#/auth/register-promo?code=MakeUC">
-        https://console.echo3d.co/#/auth/register-promo?code=MakeUC
+        1-month FREE access to all Business Plan features
         </a>
       </li>
-      <br></br>
-      <br></br>
-      <strong>echo3D documentation:</strong>
       <br></br>
       <br></br>
       <li>
         <a target="_blank" href="https://docs.echo3d.co/">
-        https://docs.echo3d.co/
+        echo3D documentation
         </a>
       </li>
-      <br></br>
-      <br></br>
-      <strong>echo3D GitHub:</strong>
       <br></br>
       <br></br>
       <li>
         <a target="_blank" href="https://github.com/echo3Dco">
-        https://github.com/echo3Dco
+        echo3D GitHub
         </a>
       </li>
       <br></br>
       <br></br>
-      <strong>Workshop recording:</strong>
-      <br></br>
-      <br></br>
       <li>
         <a target="_blank" href="https://youtu.be/Pzf2Zrdm3N8">
-        https://youtu.be/Pzf2Zrdm3N8
+        echo3D workshop recording
         </a>
       </li>
       <br></br>
     </p>
   ),
   createResource(
-    'MLH',
+    'Taskade',
     <p className="text-left" style={{ fontSize: '16px' }}>
-      <strong>Hacker Cheat Sheet:</strong>
+      <strong> Taskade is the ultimate to-do list app for managing tasks, writing notes, and 
+        collaborating with others. They are offering all hackers a 100% off lifetime workspace
+        upgrade! </strong>
       <br></br>
       <br></br>
       <li>
-        <a target="_blank" href="https://hack.mlh.io/">
-          hack.mlh.io
+        <a target="_blank" href="https://www.taskade.com/">
+        Sign up for a free account here
         </a>
       </li>
       <br></br>
       <br></br>
-      <strong>MLH Software Lab:</strong>
+      <li>
+        <a target="_blank" href="https://www.taskade.com/billing">
+        Upgrade your workspace for free here (use promo code EDUCATION100)
+        </a>
+      </li>
+      <br></br>
+      </p>
+  ),
+  createResource(
+    'MLH',
+    <p className="text-left" style={{ fontSize: '16px' }}>
+      <li>
+        <a target="_blank" href="https://hack.mlh.io/">
+          Hacker cheat sheet
+        </a>
+      </li>
       <br></br>
       <br></br>
       <li>
         <a target="_blank" href="https://hack.mlh.io/software/">
-          hack.mlh.io/software
+          MLH software lab
         </a>
       </li>
       <br></br>
       <br></br>
-      <strong>Learn (Powered By GitHub):</strong>
-      <br></br>
-      <br></br>
       <li>
         <a target="_blank" href="https://hack.mlh.io/learn/">
-          hack.mlh.io/learn
+          Learn (Powered By GitHub)
         </a>
       </li>
       <br></br>
@@ -158,20 +160,20 @@ const sponsorResources = [
       <strong>Redeem here:</strong>
       <br></br>
       <br></br>
-      <a target="_blank" href="https://account.wolfram.com/redeem/zMakeUC1021">
-        account.wolfram.com/redeem/zMakeUC1021
+      <a target="_blank" href="https://account.wolfram.com/redeem/zMakeUC1022">
+        account.wolfram.com/redeem/zMakeUC1022
       </a>
       <br></br>
       <br></br>
-      The URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. If you
-      don't already have a Wolfram ID, you'll be prompted to create one using an active email
-      address. Once logged in, you will see in the Downloads section which platforms of the software
-      you have access to, with their accompanying activation keys.
+      This URL will take you to a sign-in page and prompt you to log in using your Wolfram ID. 
+      If you don't already have a Wolfram ID, you'll be prompted to create one using an active 
+      email address. Once logged in, you will see in the Downloads section which platforms of 
+      the software you have access to, with their accompanying activation keys.
       <br></br>
       <br></br>
-      Please download the desktop version to your machine, boot up the application and use the
-      associated activation key when prompted. This will grant you full access for 30 days from your
-      activation date.
+      Please download the desktop version to your machine, boot up the application and use the 
+      associated activation key when prompted. This will grant you full access for 30 days from 
+      your activation date. 
       <br></br>
       <br></br>
       When you access Wolfram|One in the cloud for the first time, you can create a new notebook or
